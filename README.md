@@ -1,8 +1,9 @@
 # generation_client_v0.5.18
 light_client
 
-Download and extract zip package to some directory
-Navigate to that directory
-Open index.html in your browser
-Start using Lite Client!
-Please keep in mind that the Lite Client uses your browser’s local storage to persist your accounts’ data in a secure way. The browser’s local storage is bound to the url of the page, so in this case it will be the path to index.html. This means that if you download the next Lite Client version, please ensure you unpack the archive in the previous version’s directory. Otherwise, the path to the index.html will change and you won’t be able to see your stored accounts.
+Загрузите и распакуйте zip в какой-либо каталог, можно использовать git clone https://github.com/mir-one/generation_client_v0.5.18.git
+Перейдите в этот каталог generation_client_v0.5.18
+Найдите папку со своим проектом
+Откройте index.html в браузере.
+Начните использовать Lite Client!
+Имейте в виду, что Lite Client использует локальное хранилище вашего браузера для надежного хранения данных ваших учетных записей. Локальное хранилище браузера привязано к URL-адресу страницы, поэтому в этом случае это будет путь к index.html. Это означает, что если вы загрузите следующую версию Lite Client, убедитесь, что вы распаковываете архив в каталог предыдущей версии. В противном случае путь к index.html изменится, и вы не сможете просмотреть свои сохраненные учетные записи.
