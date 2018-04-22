@@ -2,22 +2,31 @@
 <!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1"
 	 id="Слой_1" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 103.3 55.7"
-	 style="enable-background:new 0 0 103.3 55.7;" xml:space="preserve">
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 103.3 90.6"
+	 style="enable-background:new 0 0 103.3 90.6;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:url(#SVGID_1_);}
+	.st0{fill:none;stroke:#4598C5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
 </style>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="27.9726" x2="103.3333" y2="27.9726">
-	<stop  offset="0" style="stop-color:#90278E"/>
-	<stop  offset="0.2075" style="stop-color:#BD148D"/>
-	<stop  offset="0.404" style="stop-color:#EB008B"/>
-	<stop  offset="0.4376" style="stop-color:#DB0C92"/>
-	<stop  offset="0.503" style="stop-color:#B12BA3"/>
-	<stop  offset="0.594" style="stop-color:#6E5CC0"/>
-	<stop  offset="0.7061" style="stop-color:#12A0E6"/>
-	<stop  offset="0.7268" style="stop-color:#00ADEE"/>
-</linearGradient>
-<path class="st0" d="M103.3,20.3c-4.5,15.6-23.8,25.2-44.2,20.3c-6.2-1.5-11.8-4.2-17.6-6.5c-4.3-1.7-8.2-4.1-12.5-5.7
-	c-10.2-3.9-15.7-5.9-29.1,3c2-6.2,4-11.8,11.2-15.2c8.7-4.1,17.1-1.9,25.3,1.3c6.3,2.4,10.8,5,18.2,8C69.9,32.9,86,35,99.2,23.8
-	C100.2,22.9,101.4,22.1,103.3,20.3z"/>
+<g>
+	<line class="st0" x1="7.4" y1="2.5" x2="32.8" y2="2.5"/>
+	<line class="st0" x1="1.6" y1="13.6" x2="27.2" y2="13.3"/>
+	<line class="st0" x1="46.6" y1="13.7" x2="74.6" y2="13.7"/>
+	<line class="st0" x1="1.6" y1="13.6" x2="7.4" y2="2.5"/>
+	<line class="st0" x1="32.8" y1="2.5" x2="27.2" y2="13.3"/>
+	<line class="st0" x1="46.6" y1="13.7" x2="52.6" y2="2.5"/>
+	<line class="st0" x1="38.7" y1="12.9" x2="32.8" y2="23.9"/>
+	<line class="st0" x1="32.8" y1="2.5" x2="38.7" y2="12.9"/>
+	<line class="st0" x1="46.6" y1="13.7" x2="52.6" y2="24.2"/>
+	<line class="st0" x1="1.6" y1="13.6" x2="44" y2="88.8"/>
+	<line class="st0" x1="56.3" y1="88.8" x2="44" y2="88.8"/>
+	<line class="st0" x1="19.6" y1="23.8" x2="56.3" y2="88.8"/>
+	<line class="st0" x1="56.3" y1="65.8" x2="27.2" y2="13.3"/>
+	<line class="st0" x1="19.6" y1="23.8" x2="33.1" y2="23.8"/>
+	<line class="st0" x1="52.6" y1="2.5" x2="96.6" y2="2.5"/>
+	<line class="st0" x1="56.3" y1="65.8" x2="96.6" y2="2.5"/>
+	<line class="st0" x1="102" y1="13.7" x2="96.6" y2="2.5"/>
+	<line class="st0" x1="56.3" y1="88.8" x2="102" y2="13.7"/>
+	<line class="st0" x1="74.6" y1="13.7" x2="50.6" y2="55.6"/>
+	<line class="st0" x1="52.6" y1="24.2" x2="68.6" y2="24.2"/>
+</g>
 </svg>
