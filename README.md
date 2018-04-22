@@ -1,7 +1,7 @@
 # generation_client_v0.5.18
 light_client
 
-Загрузите и распакуйте zip в какой-либо каталог, можно использовать git clone https://github.com/mir-one/generation_client_v0.5.18.git </br>
+Загрузите и распакуйте zip в какой-либо каталог, можно использовать git clone https://github.com/mir-one/custom_client.git </br>
 Перейдите в этот каталог generation_client_v0.5.18</br>
 Найдите папку со своим проектом</br>
 Откройте index.html в браузере.</br>
