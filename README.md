@@ -17,5 +17,5 @@
 
 # Blacklist
 
-[Прометей](https://www.icoprometheus.com) 
+[Прометей](https://www.icoprometheus.com) : https://mir.one/prometheus
 Adress: 3PCg9zMWNGrjvdKNyW7KBtJ38HgUxA5vBeL
