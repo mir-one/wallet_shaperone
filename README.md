@@ -16,6 +16,8 @@
 
 
 # Blacklist
+Для обмена репутационных активов Mir.one на проектное участие в проекте, находящихся в BL, необходимо отправить ассет на адрес эмитента:
+[Отправить с помощью WEB-кошелька](https://beta.wavesplatform.com/#send/BfcSWA26FpztiKwkhAWjpiqXpRwzUWahDfpF88gHp469?recipient=3P3rsEiJ9eseL9xivuSPsxS3UJL5fzagyEw&amount=20000000.00000000)
 
 [Прометей](https://www.icoprometheus.com) : https://mir.one/prometheus
 Adress: 3PCg9zMWNGrjvdKNyW7KBtJ38HgUxA5vBeL
