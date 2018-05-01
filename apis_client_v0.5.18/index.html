@@ -231,7 +231,7 @@
 
   <!-- HEADER -->
   <header class="fFade noSelect" ng-controller="mainMenuController as menu">
-    <img id="topLogoH" src="img/topleftlogo_hor.svg" alt="Apis logo horizontal" />
+    <img id="topLogoH" src="img/topleftlogo_hor.svg" alt="Waves logo horizontal" />
     <div id="logoNversion2">
       <img src="img/topleftlogo.svg" />
       <p ng-class='{testnet: isTestnet()}'>{{::home.title}} <span class="wlcversion">{{::home.version}}</span></p>
@@ -261,7 +261,7 @@
           <div class="plate-warning">
             <p class="dialog-text" style="font-weight: bold;">Treat your SEED (backup phrase) with care!</p>
             <p class="dialog-text">Only SEED can provide access to your wallet.</p>
-            <p class="dialog-text">1. Don't put your SEED anywhere except official<br/>Beechain Wallet (look at the site domain apismellifera.io).</p>
+            <p class="dialog-text">1. Don't put your SEED anywhere except official<br/>Beechain Wallet (look at the site apismellifera.io).</p>
             <p class="dialog-text">If someone else accesses it you will lose your funds.</p>
             <p class="dialog-text">2. Store your SEED safely, it is the only<br/>way to restore your wallet.</p>
           </div>
@@ -277,8 +277,9 @@
           <input id="addressBackup" class="wInput" type="text" readonly ng-model="menu.address"/>
         </form>
       </div>
+      <!--
       <a ng-click="home.featureUnderDevelopment()">
-        <img class="header-Icon fade" tooltipster tooltip-theme="tooltipster-theme2" src="img/uiTB-iconset-preferences.svg" alt="Preferences" title="Preferences"/>
+        <img class="header-Icon fade" tooltipster tooltip-theme="tooltipster-theme2" src="img/uiTB-iconset-preferences.svg" alt="Preferences" title="Preferences"/>-->
       </a>
       <a ng-click="menu.showProfileDialog()">
         <img class="header-Icon fade" tooltipster tooltip-theme="tooltipster-theme2" src="img/uiTB-iconset-profile.svg" alt="User profile" title="User profile"/>
@@ -644,18 +645,10 @@
 
           <div class="noDisp">
             <div id="apistoken-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
-              <h2 class="sectionHeader">NOTICE</h2>
-			<p class="dialog-text">This feature is still under development and not active during the alpha release.</p>
-    		<p class="dialog-text">Follow our social media channels to stay up to date with the latest improvements and developments.</p>
-   			 <div class="modal-media">
-      		<a href="https://medium.com/@apismellifera.token" target="_blank"><img class="modal-media-img" src="img/medium_icon.svg" /></a>
-      		<a href="https://twitter.com/APIS_Token" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
-      		<a href="https://www.facebook.com/apismellifera.io/" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
-     		<a href="https://t.me/apismelliferaio" target="_blank"><img class="modal-media-img" src="img/telegram_icon.svg" /></a>
-      		<a href="https://www.reddit.com/r/apismellifera/" target="_blank"><img class="modal-media-img" src="img/reddit_icon.svg" /></a>
-    	  </div>
-  		</div>
-
+              <h2 class="sectionHeader">APIS TOKEN</h2>
+              <p class="dialog-text">You can only use Apis Token if you to access products of <a href="https://apismellifera.io/" target="_blank">Apis Token</a> beechain.</p>
+            </div>
+          </div>
 
           <div class="noDisp" ng-controller="walletDepositController as deposit" data-currency="LTC">
             <div id="deposit-ltc-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
