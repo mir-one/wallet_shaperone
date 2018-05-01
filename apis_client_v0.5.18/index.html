@@ -359,7 +359,7 @@
               tooltipster
               tooltip-html
               tooltip-theme="tooltipster-theme3"
-              tooltip-title="<center><u>Decentralized Exchange</u></center><br/>Access to Apis markets where you can<br/>conveniently buy, sell and trade tokens."></span>
+              tooltip-title="<center><u>Decentralized Exchange</u></center><br/>Access to DEX where you can<br/>conveniently buy, sell and trade Apis Tokens."></span>
         <span waves-tab
               on-select="nav.changeTab(pageId)"
               current-page-id="nav.currentTab"
@@ -639,6 +639,23 @@
               <p class="dialog-text">You can only use Turkish Lira gateway if you have Turkish citizenship.</p>
             </div>
           </div>
+
+          <!-- Apis Token -->
+
+          <div class="noDisp">
+            <div id="apistoken-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
+              <h2 class="sectionHeader">NOTICE</h2>
+			<p class="dialog-text">This feature is still under development and not active during the alpha release.</p>
+    		<p class="dialog-text">Follow our social media channels to stay up to date with the latest improvements and developments.</p>
+   			 <div class="modal-media">
+      		<a href="https://medium.com/@apismellifera.token" target="_blank"><img class="modal-media-img" src="img/medium_icon.svg" /></a>
+      		<a href="https://twitter.com/APIS_Token" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
+      		<a href="https://www.facebook.com/apismellifera.io/" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
+     		<a href="https://t.me/apismelliferaio" target="_blank"><img class="modal-media-img" src="img/telegram_icon.svg" /></a>
+      		<a href="https://www.reddit.com/r/apismellifera/" target="_blank"><img class="modal-media-img" src="img/reddit_icon.svg" /></a>
+    	  </div>
+  		</div>
+
 
           <div class="noDisp" ng-controller="walletDepositController as deposit" data-currency="LTC">
             <div id="deposit-ltc-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
