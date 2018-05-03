@@ -19,7 +19,7 @@
 <html ng-app="app" ng-csp>
 <head>
   <meta charset="utf-8">
-  <title>Kolionovo Blockchain</title>
+  <title>EcoPole Blockchain</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/ecopole-0.5.18.css">
 
@@ -123,7 +123,7 @@
             <div class="plate-warning">
               <p class="dialog-text" style="font-weight: bold;">С осторожностью обращайтесь с SEED (Секретной фразой)!</p>
               <p class="dialog-text">Только SEED-фраза может обеспечить доступ к вашему кошельку.</p>
-              <p class="dialog-text">1. Не используйте свою SEED-фразу нигде, кроме этого сайта <br/>(внимательно сравните с этим доменом kolionovo.org/platform).</p>
+              <p class="dialog-text">1. Не используйте свою SEED-фразу нигде, кроме этого сайта <br/>(внимательно сравните с этим доменом ecopole.farm/wallet).</p>
               <p class="dialog-text">Если кто-то другой завладеет секретной фразой, вы потеряете свои активы.</p>
               <p class="dialog-text">2. Храните свою SEED-фразу в защищенном месте, это единственный способ восстановить ваш кошелек.</p>
             </div>
@@ -385,7 +385,7 @@
               tooltip-html
               tooltip-theme="tooltipster-theme3"
               tooltip-title="<center><u>История</u></center><br/>Доступ ко всей истории транзакций."></span>
-        
+      <!-- Tokens new  
         <span waves-tab
               on-select="nav.changeTab(pageId)"
               current-page-id="nav.currentTab"
@@ -394,7 +394,7 @@
               tooltipster
               tooltip-html
               tooltip-theme="tooltipster-theme3"
-              tooltip-title="<center><u>Выпуск актива</u></center><br/>Здесь вы можете создать свой актив."></span>
+              tooltip-title="<center><u>Выпуск актива</u></center><br/>Здесь вы можете создать свой актив."></span>-->
         
       <!--  СООБЩЕНИЯ   
         	<span waves-tab 
@@ -406,7 +406,7 @@
         tooltip-title="<center><u>messages</u></center><br/>Messages."></span> 	
 -->
 
-		<!--   -->
+		<!--   
         <span waves-tab
               on-select="nav.changeTab(pageId)"
               current-page-id="nav.currentTab"
@@ -415,7 +415,7 @@
               tooltipster
               tooltip-html
               tooltip-theme="tooltipster-theme3"
-              tooltip-title="<center><u>КАРТА</u></center><br/>Карта деревни Колионово."></span>
+              tooltip-title="<center><u>КАРТА</u></center><br/>Карта фермерского хозяйства EcoPole."></span>-->
     
       </div>
     </section>
@@ -650,7 +650,7 @@
           <!-- ДЛЯ НОВЫХ АКТИВОВ -->
 
           <div class="noDisp">
-            <div id="kolion-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
+            <div id="ecopole-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
     		<h2 class="sectionHeader">Внимание!</h2>
     		<p class="dialog-text">Эта функция находится в разработке и неактивна во время релиза.</p>
     		<p class="dialog-text">Подпишитесь на каналы социальных сетей, чтобы быть в курсе последних событий.</p>
@@ -1253,9 +1253,9 @@
 
         <!-- COMMUNITY TAB -->
         <div id="mBB-community" class="mBB-content" ng-switch-when="community" ng-controller="communityController as community">
-          <!-- Temporary -->
-          <h2 class="sectionHeader">КАРТА ДЕРЕВНИ КОЛИОНОВО</h2>
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6318.0048603812!2d39.4451031456438!3d55.3012652809424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414a47ec2aa17613%3A0x65a1ca5b3b26b216!2z0JrQvtC70LjQvtC90L7QstC-LCDQnNC-0YHQutC-0LLRgdC60LDRjyDQvtCx0LsuLCAxNDAzMjQ!5e1!3m2!1sru!2sru!4v1521961114564" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <!-- Temporary 
+          <h2 class="sectionHeader">КАРТА ФЕРМЕРСКОГО ХОЗЯЙСТВА</h2>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6318.0048603812!2d39.4451031456438!3d55.3012652809424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414a47ec2aa17613%3A0x65a1ca5b3b26b216!2z0JrQvtC70LjQvtC90L7QstC-LCDQnNC-0YHQutC-0LLRgdC60LDRjyDQvtCx0LsuLCAxNDAzMjQ!5e1!3m2!1sru!2sru!4v1521961114564" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>-->
 <!--
           <p class="centerIt">
           <div id="latestBlocks" class="wavesTable wScroll" >
