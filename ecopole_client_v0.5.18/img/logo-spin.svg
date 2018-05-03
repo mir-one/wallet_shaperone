@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Roman Inozemtsev: https://github.com/mir-one/  -->
+<svg version="1.1"
+	 id="Слой_1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100"
+	 style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F79420;}
+	.st1{fill:#FFFFFF;}
+</style>
+<g>
+	<g>
+		<circle class="st0" cx="50" cy="50" r="50"/>
+		<path class="st1" d="M50,4.2C24.7,4.2,4.2,24.7,4.2,50c0,25.3,20.5,45.8,45.8,45.8S95.8,75.3,95.8,50C95.8,24.7,75.3,4.2,50,4.2z
+			 M50,85.8c-19.8,0-35.8-16-35.8-35.8s16-35.8,35.8-35.8s35.8,16,35.8,35.8S69.8,85.8,50,85.8z"/>
+	</g>
+	<polygon class="st1" points="55.5,53 65.9,37.8 56.4,37.8 56.4,37.9 48.4,48.3 48.4,24.6 32.2,24.6 32.2,34.3 39.1,34.3 39.1,74.2 
+		48.4,74.2 48.4,60.6 56.4,74.2 67.8,74.2 	"/>
+</g>
+</svg>
