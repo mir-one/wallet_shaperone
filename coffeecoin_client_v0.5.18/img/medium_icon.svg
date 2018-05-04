@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Roman Inozemtsev: https://github.com/mir-one/  -->
+<svg version="1.1"
+	 id="Слой_1" shape-rendering="geometricPrecision" image-rendering="optimizeQuality" text-rendering="geometricPrecision"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 114 114"
+	 style="enable-background:new 0 0 114 114;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#231F20;}
+	.st1{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M109.8,47L67,4.2c-5.5-5.5-14.6-5.5-20.1,0L4.2,46.9c-5.6,5.6-5.6,14.6,0,20.2l42.7,42.8
+	c5.5,5.5,14.6,5.5,20.1,0l42.8-42.8C115.3,61.6,115.3,52.5,109.8,47z"/>
+<path id="Shape" class="st1" d="M38.2,44c0.1-0.6-0.2-1.2-0.6-1.6L33,36.8V36h14.2l11,24.1L67.9,36h13.6v0.8l-3.9,3.8
+	c-0.3,0.3-0.5,0.7-0.4,1.1v27.6c-0.1,0.4,0.1,0.8,0.4,1.1l3.8,3.8V75H62.2v-0.8l4-3.9c0.4-0.4,0.4-0.5,0.4-1.1V46.9l-11,28H54
+	l-12.8-28v18.8c-0.1,0.8,0.2,1.6,0.7,2.2l5.2,6.3v0.8H32.4v-0.8l5.2-6.3c0.6-0.6,0.8-1.4,0.7-2.2V44z"/>
+</svg>
