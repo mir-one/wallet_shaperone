@@ -1,8 +1,8 @@
 # Custom Client
 
-* Загрузите и распакуйте zip в любой каталог, можно использовать git clone https://github.com/mir-one/custom_client.git </br>
+* Загрузите и распакуйте zip в любой каталог, можно использовать git clone https://github.com/mir-one/wallet.git </br>
 * Перейдите в каталог **custom_client**</br>
-* Найдите папку со своим проектом, например **daycoffee_client_v0.5.18**</br>
+* Найдите папку со своим проектом, например **daycoffee_wallet_v0.5.18**</br>
 * Откройте **index.html** в браузере.</br>
 * Начните использовать Custom Client!
 </br></br>
