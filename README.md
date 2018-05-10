@@ -13,18 +13,22 @@
 
 # Update
 
-* **Forest** - клиент для работы с экологических активами и обязательствами по сохранению леса
-*
-*
-*
-*
-*
-*
-*
-*
-*
+* **apis_wallet** - (EN)
+* **arctida_wallet** - (RU) 
+* **beercoin_wallet** - (EN)
+* **coffeecoin_wallet** - (EN)
+* **daycoffee_wallet** - (RU) 
+* **ecopole_wallet** - (RU) 
+* **Forest** - (RU) клиент для работы с экологических активами и обязательствами по сохранению леса
+* **kolionovo_wallet** - (RU) 
+* **libre_wallet** - (RU) 
+* **librebank_wallet** - (RU) 
+* **mashkino_wallet** - (RU) 
+* **mir.one_wallet** - (RU) 
+* **rfs_wallet** - (RU) 
 
 
+* **HellenicNode** - client HellenicNode.eu
 
 # Blacklist
 Для обмена репутационных активов Mir.one на участие в проектах, на Σ($) находящихся на адресах из Blacklist, необходимо отправить ассет на адрес эмитента:
