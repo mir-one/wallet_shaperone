@@ -14,46 +14,31 @@
 # Update
 
 * **apis_wallet** - (EN) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетом Apis Token
-<br>
 ![apis_wallet](https://github.com/mir-one/wallet/blob/master/apis_wallet_v0.5.18/apis.png)[mir.one/beechain](https://mir.one/beechain/)
-<br>
 * **arctida_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетами POLARON и ARCTIDA
-<br>
 ![arctida_wallet](https://github.com/mir-one/wallet/blob/master/arctida_wallet_v0.5.18/arctida.png)
-<br>
 * **beercoin_wallet** - (EN) NODE_ADDRESS: 'https://nodes.wavesplatform.com',
 ![beercoin_wallet](https://github.com/mir-one/3D-Assets/blob/master/ApisToken.gif)
-</br>
 * **coffeecoin_wallet** - (EN) NODE_ADDRESS: 'https://nodes.wavesplatform.com',
 ![coffeecoin_wallet](https://github.com/mir-one/3D-Assets/blob/master/ApisToken.gif)
-</br>
 * **daycoffee_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетами DAYCOFFEE, DONATION, ROASTING, CUPPING
 ![daycoffee_wallet](https://github.com/mir-one/3D-Assets/blob/master/ApisToken.gif)
-</br>
 * **ecopole_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетом EcoPole
 ![ecopole_wallet](https://github.com/mir-one/3D-Assets/blob/master/ApisToken.gif)
-</br>
 * **forest_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с экологическими ассетами и обязательствами по сохранению леса
 ![forest_wallet](https://github.com/mir-one/3D-Assets/blob/master/ApisToken.gif)
-</br>
 * **kolionovo_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетами Kolion (KLN) и Kolion+
 ![kolionovo_wallet](https://github.com/mir-one/3D-Assets/blob/master/ApisToken.gif)
-</br>
 * **libre_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетами Libre
 ![libre_wallet](https://github.com/mir-one/3D-Assets/blob/master/ApisToken.gif)
-</br>
 * **librebank_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com',
 ![librebank_wallet](https://github.com/mir-one/3D-Assets/blob/master/ApisToken.gif)
-</br>
 * **mashkino_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетами фермерского хозяйства Машкино (Mashkino, Гусиб Утки
 ![mashkino_wallet](https://github.com/mir-one/3D-Assets/blob/master/ApisToken.gif)
-</br>
 * **mir.one_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com',
 ![mir.one_wallet](https://github.com/mir-one/3D-Assets/blob/master/ApisToken.gif)
-</br>
 * **rfs_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетом CONST (Константа) - Родовая Финансовая Система.
 ![rfs_wallet](https://github.com/mir-one/3D-Assets/blob/master/ApisToken.gif)
-</br>
 
 * **HellenicNode** - NODE_ADDRESS: 'https://privatenode.blackturtle.eu', client HellenicNode.eu
 
