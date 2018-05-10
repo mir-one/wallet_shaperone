@@ -13,22 +13,22 @@
 
 # Update
 
-* **apis_wallet** - (EN)
-* **arctida_wallet** - (RU) 
-* **beercoin_wallet** - (EN)
-* **coffeecoin_wallet** - (EN)
-* **daycoffee_wallet** - (RU) 
-* **ecopole_wallet** - (RU) 
-* **Forest** - (RU) клиент для работы с экологических активами и обязательствами по сохранению леса
-* **kolionovo_wallet** - (RU) 
-* **libre_wallet** - (RU) 
-* **librebank_wallet** - (RU) 
-* **mashkino_wallet** - (RU) 
-* **mir.one_wallet** - (RU) 
-* **rfs_wallet** - (RU) 
+* **apis_wallet** - (EN) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетом Apis Token
+* **arctida_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетами POLARON и ARCTIDA
+* **beercoin_wallet** - (EN) NODE_ADDRESS: 'https://nodes.wavesplatform.com',
+* **coffeecoin_wallet** - (EN) NODE_ADDRESS: 'https://nodes.wavesplatform.com',
+* **daycoffee_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетами DAYCOFFEE, DONATION, ROASTING, CUPPING
+* **ecopole_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетом EcoPole
+* **Forest** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с экологическими ассетами и обязательствами по сохранению леса
+* **kolionovo_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетами Kolion (KLN) и Kolion+
+* **libre_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетами Libre
+* **librebank_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com',
+* **mashkino_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетами фермерского хозяйства Машкино (Mashkino, Гусиб Утки
+* **mir.one_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com',
+* **rfs_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетом CONST (Константа) - Родовая Финансовая Система.
 
 
-* **HellenicNode** - client HellenicNode.eu
+* **HellenicNode** - NODE_ADDRESS: 'https://privatenode.blackturtle.eu', client HellenicNode.eu
 
 # Blacklist
 Для обмена репутационных активов Mir.one на участие в проектах, на Σ($) находящихся на адресах из Blacklist, необходимо отправить ассет на адрес эмитента:
