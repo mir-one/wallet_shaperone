@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Roman Inozemtsev: https://github.com/mir-one/  -->
+<svg version="1.1"
+	 id="Слой_1" shape-rendering="geometricPrecision" image-rendering="optimizeQuality" text-rendering="geometricPrecision"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 113.9 113.9"
+	 style="enable-background:new 0 0 113.9 113.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EC2024;}
+	.st1{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M109.8,46.9L67,4.1c-5.5-5.5-14.6-5.5-20.1,0L4.1,46.9c-5.5,5.5-5.5,14.6,0,20.1l42.8,42.8
+	c5.5,5.5,14.6,5.5,20.1,0L109.8,67C115.3,61.5,115.3,52.4,109.8,46.9z"/>
+<polygon class="st1" points="47.4,72.8 74.9,57 47.4,41.1 "/>
+</svg>
