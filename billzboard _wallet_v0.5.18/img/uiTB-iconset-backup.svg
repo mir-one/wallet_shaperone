@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Roman Inozemtsev: https://github.com/mir-one/  -->
+<svg version="1.1"
+	 id="Слой_1" shape-rendering="geometricPrecision" image-rendering="optimizeQuality" text-rendering="geometricPrecision"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50"
+	 style="enable-background:new 0 0 50 50;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F9BC15;}
+	.st1{fill:#FFFFFF;}
+</style>
+<circle class="st0" cx="25" cy="25" r="25"/>
+<circle class="st1" cx="25" cy="25" r="21.7"/>
+<circle class="st1" cx="25" cy="25" r="23.1"/>
+<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -10.3552 24.9998)" class="st0" cx="25" cy="25" rx="21" ry="21"/>
+<path class="st1" d="M27.8,25c0-1.5-1.2-2.7-2.7-2.7s-2.7,1.2-2.7,2.7s1.2,2.7,2.7,2.7S27.8,26.5,27.8,25z M25,12.8
+	c-6.7,0-12.2,5.5-12.2,12.2h-4l5.4,5.4l5.4-5.4h-4.1c0-5.2,4.2-9.5,9.5-9.5s9.5,4.2,9.5,9.5s-4.2,9.5-9.5,9.5c-2,0-3.9-0.7-5.5-1.8
+	l-1.9,2c2.1,1.6,4.6,2.5,7.4,2.5c6.7,0,12.2-5.5,12.2-12.2S31.8,12.8,25,12.8z"/>
+</svg>
