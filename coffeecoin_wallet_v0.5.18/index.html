@@ -122,7 +122,7 @@
             <div class="plate-warning">
               <p class="dialog-text" style="font-weight: bold;">Treat your SEED (backup phrase) with care!</p>
               <p class="dialog-text">Only SEED can provide access to your wallet.</p>
-              <p class="dialog-text">1. Don't put your SEED anywhere except official<br/>Beechain Wallet (look at the site domain apismellifera.io).</p>
+              <p class="dialog-text">1. Don't put your SEED anywhere except official<br/>Beechain Wallet (look at the site domain coffeecoin.io).</p>
               <p class="dialog-text">If someone else accesses it you will lose your funds.</p>
               <p class="dialog-text">2. Store your SEED safely, it is the only<br/>way to restore your wallet.</p>
             </div>
@@ -220,11 +220,8 @@
     <p class="dialog-text">This feature is still under development and not active during the alpha release.</p>
     <p class="dialog-text">Follow our social media channels to stay up to date with the latest improvements and developments.</p>
     <div class="modal-media">
-      <a href="https://medium.com/@apismellifera.token" target="_blank"><img class="modal-media-img" src="img/medium_icon.svg" /></a>
-      <a href="https://twitter.com/APIS_Token" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
-      <a href="https://www.facebook.com/apismellifera.io/" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
-      <a href="https://t.me/apismelliferaio" target="_blank"><img class="modal-media-img" src="img/telegram_icon.svg" /></a>
-      <a href="https://www.reddit.com/r/apismellifera/" target="_blank"><img class="modal-media-img" src="img/reddit_icon.svg" /></a>
+      <a href="https://twitter.com/JavaNomad" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
+      <a href="https://facebook.com/jb.allen.9" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
     </div>
   </div>
   <!-- /shared blocks-->
@@ -261,7 +258,7 @@
           <div class="plate-warning">
             <p class="dialog-text" style="font-weight: bold;">Treat your SEED (backup phrase) with care!</p>
             <p class="dialog-text">Only SEED can provide access to your wallet.</p>
-            <p class="dialog-text">1. Don't put your SEED anywhere except official<br/>Beechain Wallet (look at the site apismellifera.io).</p>
+            <p class="dialog-text">1. Don't put your SEED anywhere except official<br/>Beechain Wallet (look at the site coffeecoin.io).</p>
             <p class="dialog-text">If someone else accesses it you will lose your funds.</p>
             <p class="dialog-text">2. Store your SEED safely, it is the only<br/>way to restore your wallet.</p>
           </div>
@@ -360,8 +357,8 @@
               tooltipster
               tooltip-html
               tooltip-theme="tooltipster-theme3"
-              tooltip-title="<center><u>Decentralized Exchange</u></center><br/>Access to DEX where you can<br/>conveniently buy, sell and trade Apis Tokens."></span>
-        <span waves-tab
+              tooltip-title="<center><u>Decentralized Exchange</u></center><br/>Access to DEX where you can<br/>conveniently buy, sell and trade CoffeeCoin."></span>
+        <!--<span waves-tab
               on-select="nav.changeTab(pageId)"
               current-page-id="nav.currentTab"
               page-id="leasing"
@@ -369,7 +366,7 @@
               tooltipster
               tooltip-html
               tooltip-theme="tooltipster-theme3"
-              tooltip-title="<center><u>Leasing</u></center><br/>Lease your Waves<br/>to Apis lottery pool."></span>
+              tooltip-title="<center><u>Leasing</u></center><br/>Lease your Waves<br/>to CoffeeCoin."></span>-->
         <!--<span waves-tab on-select="nav.changeTab(pageId)" current-page-id="nav.currentTab" page-id="voting" caption="'Voting tab'" tooltipster tooltip-html-->
         <!--tooltip-theme="tooltipster-theme3" tooltip-title="<center><u>Voting Area</u></center><br/>Decentralized voting utility."></span>-->
         <span waves-tab
@@ -392,15 +389,15 @@
               tooltip-title="<center><u>Tokens Creation tab</u></center><br/>Area in which assets can be created."></span>-->
         <!--<span waves-tab on-select="nav.changeTab(pageId)" current-page-id="nav.currentTab" page-id="messages" caption="'Messages tab'" tooltipster tooltip-html-->
         <!--tooltip-theme="tooltipster-theme3" tooltip-title="<center><u>Decentralized Messenger</u></center><br/>Allows private communication between Waves users."></span>-->
-        <!--<span waves-tab
+        <span waves-tab
               on-select="nav.changeTab(pageId)"
               current-page-id="nav.currentTab"
               page-id="community"
-              caption="'Community tab'"
+              caption="'Thailand Coffee Shop'"
               tooltipster
               tooltip-html
               tooltip-theme="tooltipster-theme3"
-              tooltip-title="<center><u>Community tab</u></center><br/>Resources to learn more about Waves project such as <br/>forums, blogs, websites, etc."></span>-->
+              tooltip-title="<center><u>Thailand Coffee Shop"></span>
       </div>
     </section>
 
@@ -641,12 +638,12 @@
             </div>
           </div>
 
-          <!-- Apis Token -->
+          <!-- CoffeeCoin -->
 
           <div class="noDisp">
-            <div id="apistoken-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
-              <h2 class="sectionHeader">APIS TOKEN</h2>
-              <p class="dialog-text">You can only use Apis Token if you to access products of <a href="https://apismellifera.io/" target="_blank">Apis Token</a> platform.</p>
+            <div id="coffeecoin-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
+              <h2 class="sectionHeader">COFFEECOIN</h2>
+              <p class="dialog-text">You can only use $COF (CoffeeCoin) if you to access products of <a href="https://coffeecoin.io/" target="_blank">Coffeecoin</a> platform.</p>
             </div>
           </div>
 
@@ -1233,44 +1230,11 @@
         </div>
         <!-- / MESSAGES TAB -->
 
-        <!-- COMMUNITY TAB -->
+        <!-- SHOP TAB -->
         <div id="mBB-community" class="mBB-content" ng-switch-when="community" ng-controller="communityController as community">
           <!-- Temporary -->
-          <p>DISCLAIMER: The Community tab will temporarily hold block information for testing purposes. After alpha phase this data  will be relocated inside the Preferences - Advanced area.</p>
-          <h2 class="sectionHeader">LATEST BLOCKS INFORMATION</h2>
-          <p class="centerIt">
-          <div id="latestBlocks" class="wavesTable wScroll" >
-            <table>
-              <thead>
-              <tr class="fade">
-                <td>HEIGHT</td>
-                <td>DATE</td>
-                <td>TRANSACTIONS</td>
-                <td>GENERATOR</td>
-              </tr>
-              </thead>
-              <tbody id="latestBlocksTable">
-              <tr class="fade">
-                <td>{{community.candidate.block}}</td>
-                <td><i>incoming</i></td>
-                <td>{{community.candidate.size}}</td>
-                <td><i>unconfirmed</i></td>
-              </tr>
-              <tr class="fade" ng-repeat="block in community.blocks | orderBy:'timestamp':true">
-                <td>{{block.height}}</td>
-                <td>{{block.timestamp | formatting}}</td>
-                <td>{{block.transactions.length}}</td>
-                <td>
-                  <span class="clipSpan" tooltipster tooltip-theme="tooltipster-theme1" ngclipboard title="Copy this address to the clipboard." data-clipboard-text="{{block.generator}}" ngclipboard-success="clipboardOk()">{{block.generator}}</span>
-                </td>
-              </tr>
-              </tbody>
-            </table>
-          </div>
-
-          </p>
-        </div>
-        <!-- /COMMUNITY TAB -->
+		 <iframe scrolling="auto" src="https://thaicoffee.io/index.php/product/doi-whan-thai-arabica-microlot-coffee-set-cnx18a/" width="100%" height="500" align="left"></iframe>
+        <!-- /SHOP TAB -->
       </section>
     </section>
   </div>
