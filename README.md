@@ -19,6 +19,8 @@
 ![arctida_wallet](https://github.com/mir-one/wallet/blob/master/arctida_wallet_v0.5.18/arctida.png)[mir.one/arctida](https://mir.one/arctida/)
 * **beercoin_wallet** - (EN) NODE_ADDRESS: 'https://nodes.wavesplatform.com',
 ![beercoin_wallet]()
+* **billzboard_wallet** - (EN) NODE_ADDRESS: 'https://nodes.wavesplatform.com',
+![billzboard_wallet](https://github.com/mir-one/wallet/blob/master/billazboard_wallet_v0.5.18/billzboard.png)[mir.one/billzboard](https://mir.one/billzboard/)
 * **coffeecoin_wallet** - (EN) NODE_ADDRESS: 'https://nodes.wavesplatform.com',
 ![coffeecoin_wallet](https://github.com/mir-one/wallet/blob/master/coffeecoin_wallet_v0.5.18/coffeecoin.png)[mir.one/coffeecoin](https://mir.one/coffeecoin/)
 * **daycoffee_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетами DAYCOFFEE, DONATION, ROASTING, CUPPING
