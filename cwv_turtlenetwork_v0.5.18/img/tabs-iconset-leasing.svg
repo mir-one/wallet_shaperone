@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Roman Inozemtsev: https://github.com/mir-one/  -->
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#4059A7;}
+	.st1{fill:#FFFFFF;}
+</style>
+<circle class="st0" cx="12" cy="12" r="12"/>
+<circle class="st1" cx="12" cy="12" r="11"/>
+<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -4.9705 11.9999)" class="st1" cx="12" cy="12" rx="10.4" ry="10.4"/>
+<g>
+	<path class="st0" d="M12,4.6c0,0-5.2,5.7-5.2,9.6c0,2.9,2.4,5.2,5.2,5.2s5.2-2.4,5.2-5.2C17.2,10.3,12,4.6,12,4.6z"/>
+	<polygon class="st1" points="15.1,13.6 15.1,13.6 15.1,13.5 13.7,11 12,11 10.3,11 8.9,13.5 8.9,13.6 8.9,13.6 10.3,16.2 12,16.2 
+		13.7,16.2 	"/>
+</g>
+</svg>
