@@ -20,9 +20,9 @@
 <html ng-app="app" ng-csp>
 <head>
   <meta charset="utf-8">
-  <title>Coffeechain</title>
+  <title>CryptoWays</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/coffeechain-0.5.18.css">
+  <link rel="stylesheet" href="css/cwv-0.5.18.css">
 
   <link href="img/favicon.ico" type="image/x-icon" rel="shortcut icon">
 </head>
@@ -41,12 +41,6 @@
 
 <!-- LOG IN AREA -->
 <div id="lockscreen" class="userBG" ng-controller="accountsController as accounts" ng-switch-when="accounts-screen" ng-cloak>
-  <div class="banner">
-    <div class="banner-content">
-      <!--<img src="img/warning_icon.svg"/> This is a Waves fork. Powered by TurtleNode.-->
-
-    </div>
-  </div>
   <table id="lockscreenTable">
 
     <thead>
@@ -129,7 +123,7 @@
             <div class="plate-warning">
               <p class="dialog-text" style="font-weight: bold;">Treat your SEED (backup phrase) with care!</p>
               <p class="dialog-text">Only SEED can provide access to your wallet.</p>
-              <p class="dialog-text">1. Don't put your SEED anywhere except official<br/>TurtleNetwork clients (look at the site domain).</p>
+              <p class="dialog-text">1. Don't put your SEED anywhere except official<br/>Cryptoways Wallet(look at the site domain cryptoways.com).</p>
               <p class="dialog-text">If someone else accesses it you will lose your funds.</p>
               <p class="dialog-text">2. Store your SEED safely, it is the only<br/>way to restore your wallet.</p>
             </div>
@@ -227,21 +221,18 @@
     <p class="dialog-text">This feature is still under development and not active during the alpha release.</p>
     <p class="dialog-text">Follow our social media channels to stay up to date with the latest improvements and developments.</p>
     <div class="modal-media">
-      <a href="https://blog.wavesplatform.com/" target="_blank"><img class="modal-media-img" src="img/blog_icon.svg" /></a>
-      <a href="https://twitter.com/__Black_Turtle_" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
-      <a href="https://www.facebook.com/BlackTurtleWavesPool/" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
-      <a href="http://slack.wavesplatform.com/" target="_blank"><img class="modal-media-img" src="img/slack_icon.svg" /></a>
-      <a href="https://www.reddit.com/r/Wavesplatform/" target="_blank"><img class="modal-media-img" src="img/reddit_icon.svg" /></a>
-      <a href="https://vk.com/wavesplatform" target="_blank"><img id="icon-blog" class="modal-media-img" src="img/vk_icon.svg" /></a>
+      <a href="https://t.me/cryptoways" target="_blank"><img class="modal-media-img" src="img/telegram_icon.svg" /></a>
+      <a href="https://twitter.com/cryptoways" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
+      <a href="https://facebook.com/cryptoways" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
     </div>
   </div>
   <!-- /shared blocks-->
 
   <!-- HEADER -->
   <header class="fFade noSelect" ng-controller="mainMenuController as menu">
-    <img id="topLogoH" src="img/topleftlogo_hor.svg" alt="Waves platform logo horizontal" />
+    <img id="topLogoH" src="img/topleftlogo_hor.svg" alt="Waves logo horizontal" />
     <div id="logoNversion2">
-      <img src="img/topleftlogo.svg" />
+      <img src="img/topleftlogo2.svg" />
       <p ng-class='{testnet: isTestnet()}'>{{::home.title}} <span class="wlcversion">{{::home.version}}</span></p>
     </div>
     <span id="version" class="centerIt">
@@ -269,7 +260,7 @@
           <div class="plate-warning">
             <p class="dialog-text" style="font-weight: bold;">Treat your SEED (backup phrase) with care!</p>
             <p class="dialog-text">Only SEED can provide access to your wallet.</p>
-            <p class="dialog-text">1. Don't put your SEED anywhere except official<br/>TurtleNetwork clients (look at the site domain).</p>
+            <p class="dialog-text">1. Don't put your SEED anywhere except official<br/>Cryptoways Wallet (look at the site domain cryptoways.com).</p>
             <p class="dialog-text">If someone else accesses it you will lose your funds.</p>
             <p class="dialog-text">2. Store your SEED safely, it is the only<br/>way to restore your wallet.</p>
           </div>
@@ -285,8 +276,9 @@
           <input id="addressBackup" class="wInput" type="text" readonly ng-model="menu.address"/>
         </form>
       </div>
+      <!--
       <a ng-click="home.featureUnderDevelopment()">
-        <img class="header-Icon fade" tooltipster tooltip-theme="tooltipster-theme2" src="img/uiTB-iconset-preferences.svg" alt="Preferences" title="Preferences"/>
+        <img class="header-Icon fade" tooltipster tooltip-theme="tooltipster-theme2" src="img/uiTB-iconset-preferences.svg" alt="Preferences" title="Preferences"/>-->
       </a>
       <a ng-click="menu.showProfileDialog()">
         <img class="header-Icon fade" tooltipster tooltip-theme="tooltipster-theme2" src="img/uiTB-iconset-profile.svg" alt="User profile" title="User profile"/>
@@ -1275,7 +1267,7 @@
   </div>
 </div> <!-- Wrapper div END -->
 
-<script src="js/coffeechain-0.5.18.js"></script>
+<script src="js/cwv-0.5.18.js"></script>
 
 
 </body>
