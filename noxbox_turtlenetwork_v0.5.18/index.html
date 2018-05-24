@@ -20,9 +20,9 @@
 <html ng-app="app" ng-csp>
 <head>
   <meta charset="utf-8">
-  <title>Cryptowave Wallet</title>
+  <title>Noxbox Wallet</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/cwv-0.5.18.css">
+  <link rel="stylesheet" href="css/noxbox-0.5.18.css">
 
   <link href="img/favicon.ico" type="image/x-icon" rel="shortcut icon">
 </head>
@@ -123,7 +123,7 @@
             <div class="plate-warning">
               <p class="dialog-text" style="font-weight: bold;">Treat your SEED (backup phrase) with care!</p>
               <p class="dialog-text">Only SEED can provide access to your wallet.</p>
-              <p class="dialog-text">1. Don't put your SEED anywhere except official<br/>Cryptowave Wallet(look at the site domain cryptoways.com).</p>
+              <p class="dialog-text">1. Don't put your SEED anywhere except official<br/>Noxbox Wallet(look at the site domain noxbox.io).</p>
               <p class="dialog-text">If someone else accesses it you will lose your funds.</p>
               <p class="dialog-text">2. Store your SEED safely, it is the only<br/>way to restore your wallet.</p>
             </div>
@@ -221,9 +221,9 @@
     <p class="dialog-text">This feature is still under development and not active during the alpha release.</p>
     <p class="dialog-text">Follow our social media channels to stay up to date with the latest improvements and developments.</p>
     <div class="modal-media">
-      <a href="https://t.me/cryptoways" target="_blank"><img class="modal-media-img" src="img/telegram_icon.svg" /></a>
-      <a href="https://twitter.com/cryptoways" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
-      <a href="https://facebook.com/cryptoways" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
+      <a href="https://t.me/noxboxico" target="_blank"><img class="modal-media-img" src="img/telegram_icon.svg" /></a>
+      <a href="https://twitter.com/noxboxio" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
+      <a href="https://facebook.com/noxbox.io/" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
     </div>
   </div>
   <!-- /shared blocks-->
@@ -260,7 +260,7 @@
           <div class="plate-warning">
             <p class="dialog-text" style="font-weight: bold;">Treat your SEED (backup phrase) with care!</p>
             <p class="dialog-text">Only SEED can provide access to your wallet.</p>
-            <p class="dialog-text">1. Don't put your SEED anywhere except official<br/>Cryptowave Wallet (look at the site domain cryptoways.com).</p>
+            <p class="dialog-text">1. Don't put your SEED anywhere except official<br/>Noxbox Wallet (look at the site domain noxbox.io).</p>
             <p class="dialog-text">If someone else accesses it you will lose your funds.</p>
             <p class="dialog-text">2. Store your SEED safely, it is the only<br/>way to restore your wallet.</p>
           </div>
@@ -359,16 +359,16 @@
               tooltipster
               tooltip-html
               tooltip-theme="tooltipster-theme3"
-              tooltip-title="<center><u>Decentralized Exchange</u></center><br/>Access to DEX markets where you can<br/>conveniently buy, sell and trade Cryptowave tokens."></span>
+              tooltip-title="<center><u>Decentralized Exchange</u></center><br/>Access to DEX markets where you can<br/>conveniently buy, sell and trade Noxbox tokens."></span>
         <span waves-tab
               on-select="nav.changeTab(pageId)"
               current-page-id="nav.currentTab"
               page-id="leasing"
-              caption="'Cryptoways leasing tab'"
+              caption="'Noxbox leasing tab'"
               tooltipster
               tooltip-html
               tooltip-theme="tooltipster-theme3"
-              tooltip-title="<center><u>Leasing</u></center><br/>Lease your $TN<br/>to Cryptoways Node."></span>
+              tooltip-title="<center><u>Leasing</u></center><br/>Lease your $TN<br/>to Noxbox Node."></span>
         <!--<span waves-tab on-select="nav.changeTab(pageId)" current-page-id="nav.currentTab" page-id="voting" caption="'Voting tab'" tooltipster tooltip-html-->
         <!--tooltip-theme="tooltipster-theme3" tooltip-title="<center><u>Voting Area</u></center><br/>Decentralized voting utility."></span>-->
         <span waves-tab
@@ -477,175 +477,13 @@
             </div>
           </div>
 
-          <div class="noDisp" ng-controller="walletWithdrawController as withdraw" data-type="crypto">
-            <div id="withdraw-crypto-dialog" waves-dialog ok-button-caption="WITHDRAW" on-dialog-ok="withdraw.confirmWithdraw(withdraw.assetForm)">
-              <h2 class="sectionHeader">WITHDRAW: {{withdraw.sourceCurrency}}</h2>
-              <p class="dialog-text">The minimum withdrawal amount is <span class="fontBold">{{withdraw.minimumPayment | moneyLong:true}}</span></p>
-              <p class="dialog-text" ng-if="withdraw.isEthereum">Do not withdraw ETH to smart contract addresses!<br/>Your transaction may fail if their execution require additional fees.</p>
-              <form id="withdraw-asset-form" name="withdraw.assetForm" novalidate ng-validate="withdraw.validationOptions">
-                <table class="form-table">
-                  <div class="balanceAmt">
-                    <div><p>Asset balance: </p><span class="balancewaves">{{withdraw.assetBalance | moneyLong:true}}</span><br/></div>
-                  </div>
-                  <tbody>
-                  <tr>
-                    <td width="30%">{{withdraw.sourceCurrency}} address</td>
-                    <td><input class="wInput form-control" name="withdrawAddress" type="text" placeholder="{{withdraw.sourceCurrency}} address" ng-model="withdraw.recipient"/></td>
-                  </tr>
-                  <tr>
-                    <td>Amount</td>
-                    <td><input class="wInput form-control" name="withdrawAmount" type="text" placeholder="Withdraw amount" ng-model="withdraw.amount" ng-change="withdraw.refreshTotal()" decimal-input-restrictor/></td>
-                  </tr>
-                  <tr>
-                    <td>Gateway fee</td>
-                    <td><input disabled class="wInput form-control" name="gatewayFee" type="text" placeholder="Gateway fee" ng-model="withdraw.feeOut" decimal-input-restrictor/></td>
-                  </tr>
-                  <tr>
-                    <td>Total</td>
-                    <td><input class="wInput form-control" name="withdrawTotal" type="text" placeholder="Total amount" ng-model="withdraw.total" ng-change="withdraw.refreshAmount()" decimal-input-restrictor/></td>
-                  </tr>
-                  <tr>
-                    <td class="padded">TN fee</td>
-                    <td class="padded">
-                      <md-autocomplete md-input-name="withdrawFee" md-selected-item="withdraw.autocomplete.selectedFee" md-search-text="withdraw.autocomplete.searchText"
-                                       md-items="item in withdraw.autocomplete.querySearch(withdraw.autocomplete.searchText)"
-                                       md-item-text="item.amount.toString()" md-min-length="0" md-require-match="" md-no-cache="true"
-                                       md-menu-class="popup-autocomplete" class="fee-autocomplete">
-                        <md-item-template>
-                          <span md-highlight-text="withdraw.autocomplete.searchText">{{item.displayText}}</span>
-                        </md-item-template>
-                      </md-autocomplete>
-                    </td>
-                  </tr>
-                  </tbody>
-                </table>
-              </form>
-            </div>
-            <div id="withdraw-confirmation" waves-dialog ok-button-caption="CONFIRM" ok-button-enabled="!withdraw.broadcast.pending" on-dialog-ok="withdraw.broadcastTransaction()">
-              <div class="dialog-confirmation">
-                <p class="dialog-text">You are sending <span class="confirmation-value">{{withdraw.confirm.amount | moneyLong:true}}</span> with
-                  <span class="confirmation-value">{{withdraw.confirm.fee | moneyLong:true}}</span> fee to the TN gateway address <br/>
-                  <span class="confirmation-value">{{withdraw.confirm.gatewayAddress}}</span>.
-                </p>
-                <p class="dialog-text">The gateway will transfer these funds to your {{withdraw.sourceCurrency}} address: <span class="confirmation-value">{{withdraw.confirm.recipient}}</span>.</p>
-                <p class="dialog-text">Press <span class="fontBold"> CONFIRM </span>to execute or <span class="fontBold"> CANCEL </span> to discard this operation.</p>
-              </div>
-            </div>
-          </div>
 
-          <div class="noDisp" ng-controller="walletWithdrawController as withdraw" data-type="fiat">
-            <div id="withdraw-fiat-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
-              <h2 class="sectionHeader">WITHDRAW: {{withdraw.sourceCurrency}}</h2>
-              <p class="dialog-text textCenter">
-                If you've been verified and deposited {{withdraw.sourceCurrency}}<br/>
-                you can withdraw {{withdraw.sourceCurrency}} back to your bank account<br/>
-                <br/>
-                To do so please make a SEND transaction to the<br/>
-                TN address <span class="email"
-                                    title="Copy this address to the clipboard"
-                                    tooltipster
-                                    tooltip-theme="tooltipster-theme1"
-                                    ngclipboard
-                                    data-clipboard-text="3P7qtv5Z7AMhwyvf5sM6nLuWWypyjVKb7Us"
-                                    ngclipboard-success="clipboardOk()">3P7qtv5Z7AMhwyvf5sM6nLuWWypyjVKb7Us</span><br/>
-                <br/>
-                Fees are 1% from the amount transferred<br/>
-                <br/>
-                The minimum amount is 500 {{withdraw.sourceCurrency}}<br/>
-                <br/>
-                <a href="https://coinomat.com/faq.php" target="_blank">More information about withdrawals</a>
-              </p>
-              <br/>
-              <p class="dialog-text textCenter">
-                If you have any questions,<br/>
-                please just send an email to<br/>
-                <span class="email"
-                      title="Copy this address to the clipboard"
-                      tooltipster
-                      tooltip-theme="tooltipster-theme1"
-                      ngclipboard
-                      data-clipboard-text="{{withdraw.gatewayEmail}}"
-                      ngclipboard-success="clipboardOk()">{{withdraw.gatewayEmail}}</span>
-              </p>
-            </div>
-          </div>
-
-          <div class="noDisp" ng-controller="walletDepositController as deposit" data-currency="BTC">
-            <div id="deposit-btc-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
-              <h2 class="sectionHeader">DEPOSIT: BTC</h2>
-              <p class="dialog-text textCenter">
-                <img src="img/visa_mastercard_116x35.gif" width="116" height="35"><span class="divider-2"></span>
-                <button class="wButton wButton-dialog" ng-click="walletList.depositFromCard(deposit.assetBalance.currency)">
-                  Buy BTC from your credit card
-                </button>
-              </p>
-              <p class="dialog-text">To deposit BTC to your TN account, please send BTC to the address below.<br/>
-                The minimum amount of deposit is <span class="fontBold">{{::deposit.btc.minimumAmount}} BTC</span>.</p>
-              <table class="wavesTable bitcoin-requisites">
-                <tbody>
-                <tr>
-                  <td><b>{{deposit.btc.bitcoinAddress}}</b></td>
-                </tr>
-                </tbody>
-              </table>
-              <p class="dialog-text">Enter this address into your Bitcoin client or wallet. Once the transaction is confirmed, <br/>
-                the gateway will process the transfer of BTC to a token in your TN account.</p>
-              <p class="dialog-text">Please note that the gateway doesn't apply any fees for this operation.</p>
-              <p class="dialog-text">You can scan this QR-code in order to copy the address.<br/>
-                Amount is optional but it will be added to the QR-code if present.</p>
-              <div class="textCenter">
-                <input class="wInput small" type="text" placeholder="Amount" ng-model="deposit.btc.bitcoinAmount" ng-change="deposit.refreshBTCUri()" decimal-input-restrictor />
-                <br/>
-                <br/>
-                <a ng-href="{{deposit.btc.bitcoinUri}}">
-                  <waves-qr-code class="center" size="180" value="deposit.btc.bitcoinUri"></waves-qr-code>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="noDisp" ng-controller="walletDepositController as deposit" data-currency="ETH">
-            <div id="deposit-eth-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
-              <h2 class="sectionHeader">DEPOSIT: ETH</h2>
-              <div class="plate-warning">
-                <p><b>Do not deposit ETH from smart contracts!</b></p>
-                <p>Check if your wallet or exchange uses smart-contracts to withdraw ETH.<br/>
-                   We do not accept such transactions and can’t refund them.<br/>
-                   You will lose that money.</p>
-              </div>
-              <p class="dialog-text">To deposit ETH to your TN account, please send ETH to the address below.<br/>
-                The minimum amount of deposit is <span class="fontBold">{{deposit.eth.minimumAmount}} ETH</span>.</p>
-              <p class="dialog-text">Please do not deposit ERC20 tokens! Only Ethereum is allowed.</p>
-              <table class="wavesTable bitcoin-requisites">
-                <tbody>
-                <tr>
-                  <td><b>{{deposit.eth.ethereumAddress}}</b></td>
-                </tr>
-                </tbody>
-              </table>
-              <p class="dialog-text">Enter this address into your Ethereum client or wallet. Once the transaction is confirmed, <br/>
-                the gateway will process the transfer of ETH to a token in your TN account.</p>
-              <p class="dialog-text">Please note that the gateway doesn't apply any fees for this operation.</p>
-              <div class="textCenter">
-                <waves-qr-code class="center" size="180" value="deposit.eth.ethereumAddress"></waves-qr-code>
-              </div>
-            </div>
-          </div>
+          <!-- Noxbox Token -->
 
           <div class="noDisp">
-            <div id="digilira-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
-              <h2 class="sectionHeader">TURKISH LIRA</h2>
-              <p class="dialog-text">Please visit <a href="https://www.digilira.com/" target="_blank">Digilira</a> gateway.</p>
-              <p class="dialog-text">You can only use Turkish Lira gateway if you have Turkish citizenship.</p>
-            </div>
-          </div>
-
-          <!-- Cryptowave Token -->
-
-          <div class="noDisp">
-            <div id="cwv-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
-              <h2 class="sectionHeader">Cryptowave Gateway</h2>
-              <p class="dialog-text">We need you sign this <a href="http://cryptoways.com/blog/2018/05/09/cryptowave-gateway-on-the-turtle-network-petition/" target="_blank">Cryptowave Gateway Petition</a> to be active on the Turtle Network a gateway.</p>
+            <div id="nbx-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
+              <h2 class="sectionHeader">Noxbox Gateway</h2>
+              <p class="dialog-text">We need this Noxbox Gateway to be active on the Turtle Network a gateway.</p>
             </div>
           </div>
 
@@ -1297,7 +1135,7 @@
   </div>
 </div> <!-- Wrapper div END -->
 
-<script src="js/cwv-0.5.18.js"></script>
+<script src="js/1-0.5.18.js"></script>
 
 
 </body>
