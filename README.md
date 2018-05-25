@@ -41,6 +41,8 @@
 ![mashkino_wallet](https://github.com/mir-one/wallet/blob/master/mashkino_wallet_v0.5.18/mashkino.png)[mir.one/mashkino](https://mir.one/mashkino/)
 * **mir.one_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com',
 ![mir.one_wallet]()
+* **moneyenergy_wallet** - (EN) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетом Money Energy
+![moneyenergy_wallet](https://github.com/mir-one/wallet/blob/master/moneyenergy.5.18/moneyenergy.png)[mir.one/moneyenergy](https://mir.one/moneyenergy/)
 * **noxbox_wallet** - (EN) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетом Noxbox
 ![noxbox_wallet](https://github.com/mir-one/wallet/blob/master/noxbox_wallet_v0.5.18/Noxbox.png)[mir.one/noxbox](https://mir.one/noxbox/)
 * **rfs_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетом CONST (Константа) - Родовая Финансовая Система.
