@@ -42,7 +42,7 @@
 * **mir.one_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com',
 ![mir.one_wallet]()
 * **noxbox_wallet** - (EN) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетом Noxbox
-![noxbox_wallet](https://github.com/mir-one/wallet/blob/master/noxbox_wallet_v0.5.18/noxbox.png)[mir.one/noxbox](https://mir.one/noxbox/)
+![noxbox_wallet](https://github.com/mir-one/wallet/blob/master/noxbox_wallet_v0.5.18/Noxbox.png)[mir.one/noxbox](https://mir.one/noxbox/)
 * **rfs_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетом CONST (Константа) - Родовая Финансовая Система.
 ![rfs_wallet]()
 
