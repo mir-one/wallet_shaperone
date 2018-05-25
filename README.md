@@ -23,6 +23,8 @@
 ![billzboard_wallet](https://github.com/mir-one/wallet/blob/master/billzboard_wallet_v0.5.18/billzboard.png)[mir.one/billzboard](https://mir.one/billzboard/)
 * **coffeecoin_wallet** - (EN) NODE_ADDRESS: 'https://nodes.wavesplatform.com',
 ![coffeecoin_wallet](https://github.com/mir-one/wallet/blob/master/coffeecoin_wallet_v0.5.18/coffeecoin.png)[mir.one/coffeecoin](https://mir.one/coffeecoin/)
+* **cryptomix_wallet** - (EN+RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com',
+![cryptomix_wallet](https://github.com/mir-one/wallet/blob/master/cryptomix_wallet_v0.5.18/cryptomix.png)[mir.one/cryptomix](https://mir.one/cryptomix/)
 * **cwv_turtlenetwork_wallet** - (EN) NODE_ADDRESS: 'https://privatenode.blackturtle.eu',
 ![cwv_turtlenetwork_wallet](https://github.com/mir-one/wallet/blob/master/cwv_turtlenetwork_v0.5.18/cryptoway.png)[mir.one/cryptoway](https://mir.one/cryptoway/)
 * **daycoffee_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетами DAYCOFFEE, DONATION, ROASTING, CUPPING
