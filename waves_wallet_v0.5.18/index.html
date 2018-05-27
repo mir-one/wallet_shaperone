@@ -23,7 +23,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/waves-0.5.18.css">
 
-  <link href="img/favicon.png" type="image/x-icon" rel="shortcut icon">
+  <link href="img/favicon.ico" type="image/x-icon" rel="shortcut icon">
 </head>
 
 <body ng-controller="homeController as home" ng-switch on="home.screen">
@@ -122,7 +122,7 @@
             <div class="plate-warning">
               <p class="dialog-text" style="font-weight: bold;">Treat your SEED (backup phrase) with care!</p>
               <p class="dialog-text">Only SEED can provide access to your wallet.</p>
-              <p class="dialog-text">1. Don't put your SEED anywhere except official<br/>Noxbox Wallet (look at the site domain noxbox.io).</p>
+              <p class="dialog-text">1. Don't put your SEED anywhere except <br/>Waves Wallet (look at the site domain mir.one/waves).</p>
               <p class="dialog-text">If someone else accesses it you will lose your funds.</p>
               <p class="dialog-text">2. Store your SEED safely, it is the only<br/>way to restore your wallet.</p>
             </div>
@@ -217,12 +217,13 @@
   <!-- shared blocks -->
   <div id="feat-not-active" waves-dialog global="true" show-buttons="false" is-error="true">
     <h2 class="sectionHeader">NOTICE</h2>
-    <p class="dialog-text">This feature is still under development and not active during the alpha release.</p>
+    <p class="dialog-text">This feature is still under development and not active during the release.</p>
     <p class="dialog-text">Follow our social media channels to stay up to date with the latest improvements and developments.</p>
     <div class="modal-media">
-      <a href="https://t.me/noxboxico" target="_blank"><img class="modal-media-img" src="img/telegram_icon.svg" /></a>
-      <a href="https://twitter.com/noxboxio" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
-      <a href="https://facebook.com/noxbox.io/" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
+      <a href="https://vk.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/vk_icon.svg" /></a>
+      <a href="https://t.me/asset_wallet" target="_blank"><img class="modal-media-img" src="img/telegram_icon.svg" /></a>
+      <a href="https://twitter.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
+      <a href="https://www.facebook.com/inozemtsev.roman" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
     </div>
   </div>
   <!-- /shared blocks-->
@@ -259,7 +260,7 @@
           <div class="plate-warning">
             <p class="dialog-text" style="font-weight: bold;">Treat your SEED (backup phrase) with care!</p>
             <p class="dialog-text">Only SEED can provide access to your wallet.</p>
-            <p class="dialog-text">1. Don't put your SEED anywhere except official<br/>Noxbox Wallet (look at the site domain noxbox.io).</p>
+            <p class="dialog-text">1. Don't put your SEED anywhere except<br/>Waves Wallet (look at the site domain mir.one/wallet).</p>
             <p class="dialog-text">If someone else accesses it you will lose your funds.</p>
             <p class="dialog-text">2. Store your SEED safely, it is the only<br/>way to restore your wallet.</p>
           </div>
@@ -358,16 +359,16 @@
               tooltipster
               tooltip-html
               tooltip-theme="tooltipster-theme3"
-              tooltip-title="<center><u>Decentralized Exchange</u></center><br/>Access to DEX markets where you can<br/>conveniently buy, sell and trade Noxbox tokens."></span>
+              tooltip-title="<center><u>Decentralized Exchange</u></center><br/>Access to DEX markets where you can<br/>conveniently buy, sell and trade Waves tokens."></span>
        <!--<span waves-tab
               on-select="nav.changeTab(pageId)"
               current-page-id="nav.currentTab"
               page-id="leasing"
-              caption="'Noxbox leasing tab'"
+              caption="'Waves leasing tab'"
               tooltipster
               tooltip-html
               tooltip-theme="tooltipster-theme3"
-              tooltip-title="<center><u>Leasing</u></center><br/>Lease your $TN<br/>to Noxbox Node."></span>-->
+              tooltip-title="<center><u>Leasing</u></center><br/>Lease your $TN<br/>to Waves Nodes."></span>-->
         <!--<span waves-tab on-select="nav.changeTab(pageId)" current-page-id="nav.currentTab" page-id="voting" caption="'Voting tab'" tooltipster tooltip-html-->
         <!--tooltip-theme="tooltipster-theme3" tooltip-title="<center><u>Voting Area</u></center><br/>Decentralized voting utility."></span>-->
         <span waves-tab
@@ -639,14 +640,148 @@
             </div>
           </div>
 
-          <!-- Noxbox Token -->
+          <!-- Waves Token -->
 
           <div class="noDisp">
-            <div id="noxbox-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
-              <h2 class="sectionHeader">NOXBOX</h2>
-              <p class="dialog-text">You can only use Noxbox if you to access products of <a href="https://noxbox.io/" target="_blank">Noxbox</a> platform.</p>
+            <div id="LIQUID-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
+    		<h2 class="sectionHeader">NOTICE</h2>
+    		<p class="dialog-text">This feature is still under development and not active during the release.</p>
+    		<p class="dialog-text">Follow our social media channels to stay up to date with the latest improvements and developments.</p>
+    		<div class="modal-media">
+      		<a href="https://vk.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/vk_icon.svg" /></a>
+      		<a href="https://t.me/asset_wallet" target="_blank"><img class="modal-media-img" src="img/telegram_icon.svg" /></a>
+      		<a href="https://twitter.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
+      		<a href="https://www.facebook.com/inozemtsev.roman" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
+              </div>
             </div>
           </div>
+
+          <div class="noDisp">
+            <div id="OCL-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
+    		<h2 class="sectionHeader">NOTICE</h2>
+    		<p class="dialog-text">This feature is still under development and not active during the release.</p>
+    		<p class="dialog-text">Follow our social media channels to stay up to date with the latest improvements and developments.</p>
+    		<div class="modal-media">
+      		<a href="https://vk.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/vk_icon.svg" /></a>
+      		<a href="https://t.me/asset_wallet" target="_blank"><img class="modal-media-img" src="img/telegram_icon.svg" /></a>
+      		<a href="https://twitter.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
+      		<a href="https://www.facebook.com/inozemtsev.roman" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="noDisp">
+            <div id="WNT-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
+    		<h2 class="sectionHeader">NOTICE</h2>
+    		<p class="dialog-text">This feature is still under development and not active during the release.</p>
+    		<p class="dialog-text">Follow our social media channels to stay up to date with the latest improvements and developments.</p>
+    		<div class="modal-media">
+      		<a href="https://vk.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/vk_icon.svg" /></a>
+      		<a href="https://t.me/asset_wallet" target="_blank"><img class="modal-media-img" src="img/telegram_icon.svg" /></a>
+      		<a href="https://twitter.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
+      		<a href="https://www.facebook.com/inozemtsev.roman" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="noDisp">
+            <div id="CWV-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
+    		<h2 class="sectionHeader">NOTICE</h2>
+    		<p class="dialog-text">This feature is still under development and not active during the release.</p>
+    		<p class="dialog-text">Follow our social media channels to stay up to date with the latest improvements and developments.</p>
+    		<div class="modal-media">
+      		<a href="https://vk.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/vk_icon.svg" /></a>
+      		<a href="https://t.me/asset_wallet" target="_blank"><img class="modal-media-img" src="img/telegram_icon.svg" /></a>
+      		<a href="https://twitter.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
+      		<a href="https://www.facebook.com/inozemtsev.roman" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="noDisp">
+            <div id="COF-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
+    		<h2 class="sectionHeader">NOTICE</h2>
+    		<p class="dialog-text">This feature is still under development and not active during the release.</p>
+    		<p class="dialog-text">Follow our social media channels to stay up to date with the latest improvements and developments.</p>
+    		<div class="modal-media">
+      		<a href="https://vk.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/vk_icon.svg" /></a>
+      		<a href="https://t.me/asset_wallet" target="_blank"><img class="modal-media-img" src="img/telegram_icon.svg" /></a>
+      		<a href="https://twitter.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
+      		<a href="https://www.facebook.com/inozemtsev.roman" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="noDisp">
+            <div id="WNET-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
+    		<h2 class="sectionHeader">NOTICE</h2>
+    		<p class="dialog-text">This feature is still under development and not active during the release.</p>
+    		<p class="dialog-text">Follow our social media channels to stay up to date with the latest improvements and developments.</p>
+    		<div class="modal-media">
+      		<a href="https://vk.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/vk_icon.svg" /></a>
+      		<a href="https://t.me/asset_wallet" target="_blank"><img class="modal-media-img" src="img/telegram_icon.svg" /></a>
+      		<a href="https://twitter.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
+      		<a href="https://www.facebook.com/inozemtsev.roman" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="noDisp">
+            <div id="WGO-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
+    		<h2 class="sectionHeader">NOTICE</h2>
+    		<p class="dialog-text">This feature is still under development and not active during the release.</p>
+    		<p class="dialog-text">Follow our social media channels to stay up to date with the latest improvements and developments.</p>
+    		<div class="modal-media">
+      		<a href="https://vk.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/vk_icon.svg" /></a>
+      		<a href="https://t.me/asset_wallet" target="_blank"><img class="modal-media-img" src="img/telegram_icon.svg" /></a>
+      		<a href="https://twitter.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
+      		<a href="https://www.facebook.com/inozemtsev.roman" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="noDisp">
+            <div id="WPN-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
+    		<h2 class="sectionHeader">NOTICE</h2>
+    		<p class="dialog-text">This feature is still under development and not active during the release.</p>
+    		<p class="dialog-text">Follow our social media channels to stay up to date with the latest improvements and developments.</p>
+    		<div class="modal-media">
+      		<a href="https://vk.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/vk_icon.svg" /></a>
+      		<a href="https://t.me/asset_wallet" target="_blank"><img class="modal-media-img" src="img/telegram_icon.svg" /></a>
+      		<a href="https://twitter.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
+      		<a href="https://www.facebook.com/inozemtsev.roman" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="noDisp">
+            <div id="WCT-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
+    		<h2 class="sectionHeader">NOTICE</h2>
+    		<p class="dialog-text">This feature is still under development and not active during the release.</p>
+    		<p class="dialog-text">Follow our social media channels to stay up to date with the latest improvements and developments.</p>
+    		<div class="modal-media">
+      		<a href="https://vk.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/vk_icon.svg" /></a>
+      		<a href="https://t.me/asset_wallet" target="_blank"><img class="modal-media-img" src="img/telegram_icon.svg" /></a>
+      		<a href="https://twitter.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
+      		<a href="https://www.facebook.com/inozemtsev.roman" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="noDisp">
+            <div id="WFN-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
+    		<h2 class="sectionHeader">NOTICE</h2>
+    		<p class="dialog-text">This feature is still under development and not active during the release.</p>
+    		<p class="dialog-text">Follow our social media channels to stay up to date with the latest improvements and developments.</p>
+    		<div class="modal-media">
+      		<a href="https://vk.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/vk_icon.svg" /></a>
+      		<a href="https://t.me/asset_wallet" target="_blank"><img class="modal-media-img" src="img/telegram_icon.svg" /></a>
+      		<a href="https://twitter.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
+      		<a href="https://www.facebook.com/inozemtsev.roman" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
+              </div>
+            </div>
+          </div>     
+
 
           <div class="noDisp" ng-controller="walletDepositController as deposit" data-currency="LTC">
             <div id="deposit-ltc-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
