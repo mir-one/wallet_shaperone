@@ -23,7 +23,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/forest-0.5.18.css">
 
-  <link href="img/favicon.ico" type="image/x-icon" rel="shortcut icon">
+  <link href="img/favicon.png" type="image/x-icon" rel="shortcut icon">
 </head>
 
 <body ng-controller="homeController as home" ng-switch on="home.screen">
@@ -45,7 +45,7 @@
 
     <thead>
     <div id="logoNversion">
-      <img src="img/topleftlogo.svg" />
+      <img src="img/topleftlogo_.svg" />
       <p ng-class='{testnet: isTestnet()}'>{{::home.title}} <span class="wlcversion">{{::home.version}}</span></p>
     </div>
     </thead>
@@ -123,7 +123,7 @@
             <div class="plate-warning">
               <p class="dialog-text" style="font-weight: bold;">С осторожностью обращайтесь с SEED (Секретной фразой)!</p>
               <p class="dialog-text">Только SEED-фраза может обеспечить доступ к вашему кошельку.</p>
-              <p class="dialog-text">1. Не используйте свою SEED-фразу нигде, кроме этого сайта <br/>(внимательно сравните с этим доменом daycoffee.org/wallet).</p>
+              <p class="dialog-text">1. Не используйте свою SEED-фразу нигде, кроме этого сайта <br/>(внимательно сравните с этим доменом mir.one/forest).</p>
               <p class="dialog-text">Если кто-то другой завладеет секретной фразой, вы потеряете свои активы.</p>
               <p class="dialog-text">2. Храните свою SEED-фразу в защищенном месте, это единственный способ восстановить ваш кошелек.</p>
             </div>
@@ -214,9 +214,8 @@
     <p class="dialog-text">Эта функция находится в разработке и неактивна во время релиза.</p>
     <p class="dialog-text">Подпишитесь на каналы социальных сетей, чтобы быть в курсе последних событий.</p>
     <div class="modal-media">
-    	<a href="https://vk.com/daycoffee" target="_blank"><img id="icon-blog" class="modal-media-img" src="img/vk_icon.svg" /></a>
-    	<a href="https://www.facebook.com/daycoffee.org" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
-    	<a href="https://twitter.com/worldcoffeeday" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
+    	<a href="https://vk.com/mirone_platform" target="_blank"><img id="icon-blog" class="modal-media-img" src="img/vk_icon.svg" /></a>
+    	<a href="https://twitter.com/mirone_platform" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
     </div>
   </div>
   <!-- /shared blocks-->
@@ -335,7 +334,7 @@
               tooltipster
               tooltip-html
               tooltip-theme="tooltipster-theme3"
-              tooltip-title="<center><u>Кошелек</u></center><br/>Вкладка отображения основных токенов"></span>
+              tooltip-title="<center><u>Кошелек</u></center><br/>Вкладка отображает основные экологические активы и токенов"></span>
                    
         <span waves-tab
               on-select="nav.changeTab(pageId)"
@@ -345,7 +344,7 @@
               tooltipster
               tooltip-html
               tooltip-theme="tooltipster-theme3"
-              tooltip-title="<center><u>Портфель</u></center><br/>Отображает все ваши токены,<br/> как цифровые,так и физические,<br/> а также позволяет отправку."></span>
+              tooltip-title="<center><u>Портфель</u></center><br/>Отображает все ваши активы,<br/> как цифровые,так и физические,<br/> а также позволяет отправку."></span>
         <span waves-tab
               on-select="nav.changeTab(pageId)"
               current-page-id="nav.currentTab"
@@ -354,7 +353,7 @@
               tooltipster
               tooltip-html
               tooltip-theme="tooltipster-theme3"
-              tooltip-title="<center><u>Децентрализованная Биржа</u></center><br/>Доступ к рынкам, где вы можете покупать,<br/>продавать и торговать токенами."></span>
+              tooltip-title="<center><u>Децентрализованная Биржа</u></center><br/>Доступ к рынкам, где вы можете покупать,<br/>продавать и торговать экологические активы."></span>
         
         <!--<span waves-tab
               on-select="nav.changeTab(pageId)"
@@ -395,7 +394,7 @@
               tooltipster
               tooltip-html
               tooltip-theme="tooltipster-theme3"
-              tooltip-title="<center><u>Выпуск токена</u></center><br/>Здесь вы можете создать свой токен."></span>
+              tooltip-title="<center><u>Выпуск экологического актива</u></center><br/>Здесь вы можете создать свой экологический актив."></span>
         
       <!--  СООБЩЕНИЯ   
         	<span waves-tab 
@@ -416,7 +415,7 @@
               tooltipster
               tooltip-html
               tooltip-theme="tooltipster-theme3"
-              tooltip-title="<center><u>КАРТА</u></center><br/>Карта третьей кофейной волны."></span>
+              tooltip-title="<center><u>КАРТА</u></center><br/>Карта высадки леса экосистемы Лес Мира."></span>
       
       </div>
     </section>
@@ -659,136 +658,10 @@
           <!-- ДЛЯ НОВЫХ ТОКЕНОВ -->
 
           <div class="noDisp">
-            <div id="eastcoin-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
-              <h2 class="sectionHeader">EASTCOIN</h2>
-              <p class="dialog-text">Please visit <a href="https://eastcoin.io/" target="_blank">Eastcoin</a> gateway.</p>
-              <p class="dialog-text">You can only use Eastcoin gateway if you have Far East land.</p>
-            </div>
-          </div>
-
-          <div class="noDisp">
-            <div id="vadimveter-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
-              <h2 class="sectionHeader">VADIMVETER</h2>
-              <p class="dialog-text">Please visit <a href="https://vadimveter.ru/" target="_blank">Vadim Veter Travel</a> gateway.</p>
-              <p class="dialog-text">You can only use Vadim Veter gateway if you have Vadim Veter Token.</p>
-            </div>
-          </div>
-
-          <div class="noDisp">
-            <div id="cof-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
-              <h2 class="sectionHeader">COFFEECOIN</h2>
-              <p class="dialog-text">Please visit <a href="https://www.coffeecoin.io/" target="_blank">CoffeeCoin</a> gateway.</p>
-              <p class="dialog-text">You can only use CoffeeCoin gateway if you have CoffeeCoin Token.</p>
-            </div>
-          </div>
-
-          <div class="noDisp">
-            <div id="daycoffee-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
-    		<h2 class="sectionHeader">Внимание!</h2>
-    		<p class="dialog-text">Эта функция находится в разработке и неактивна во время релиза.</p>
-    		<p class="dialog-text">Подпишитесь на каналы социальных сетей, чтобы быть в курсе последних событий.</p>
-    			<div class="modal-media">
-    		<a href="https://vk.com/daycoffee" target="_blank"><img id="icon-blog" class="modal-media-img" src="img/vk_icon.svg" /></a>
-    		<a href="https://www.facebook.com/daycoffee.org" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
-    		<a href="https://twitter.com/worldcoffeeday" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
-    			</div>
-            </div>
-          </div>
-
-          <div class="noDisp">
-            <div id="donation-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
-    		<h2 class="sectionHeader">Внимание!</h2>
-    		<p class="dialog-text">Эта функция находится в разработке и неактивна во время релиза.</p>
-    		<p class="dialog-text">Подпишитесь на каналы социальных сетей, чтобы быть в курсе последних событий.</p>
-    			<div class="modal-media">
-    		<a href="https://vk.com/daycoffee" target="_blank"><img id="icon-blog" class="modal-media-img" src="img/vk_icon.svg" /></a>
-    		<a href="https://www.facebook.com/daycoffee.org" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
-    		<a href="https://twitter.com/worldcoffeeday" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
-    			</div>
-            </div>
-          </div>
-
-          <div class="noDisp">
-            <div id="bean-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
-    		<h2 class="sectionHeader">Внимание!</h2>
-    		<p class="dialog-text">Эта функция находится в разработке и неактивна во время релиза.</p>
-    		<p class="dialog-text">Подпишитесь на каналы социальных сетей, чтобы быть в курсе последних событий.</p>
-    			<div class="modal-media">
-    		<a href="https://vk.com/daycoffee" target="_blank"><img id="icon-blog" class="modal-media-img" src="img/vk_icon.svg" /></a>
-    		<a href="https://www.facebook.com/daycoffee.org" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
-    		<a href="https://twitter.com/worldcoffeeday" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
-    			</div>
-            </div>
-          </div>
-
-          <div class="noDisp">
-            <div id="cupping-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
-    		<h2 class="sectionHeader">Внимание!</h2>
-    		<p class="dialog-text">Эта функция находится в разработке и неактивна во время релиза.</p>
-    		<p class="dialog-text">Подпишитесь на каналы социальных сетей, чтобы быть в курсе последних событий.</p>
-    			<div class="modal-media">
-    		<a href="https://vk.com/daycoffee" target="_blank"><img id="icon-blog" class="modal-media-img" src="img/vk_icon.svg" /></a>
-    		<a href="https://www.facebook.com/daycoffee.org" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
-    		<a href="https://twitter.com/worldcoffeeday" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
-    			</div>
-            </div>
-          </div>
-
-          <div class="noDisp">
-            <div id="roasting-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
-    		<h2 class="sectionHeader">Внимание!</h2>
-    		<p class="dialog-text">Эта функция находится в разработке и неактивна во время релиза.</p>
-    		<p class="dialog-text">Подпишитесь на каналы социальных сетей, чтобы быть в курсе последних событий.</p>
-    			<div class="modal-media">
-    		<a href="https://vk.com/daycoffee" target="_blank"><img id="icon-blog" class="modal-media-img" src="img/vk_icon.svg" /></a>
-    		<a href="https://www.facebook.com/daycoffee.org" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
-    		<a href="https://twitter.com/worldcoffeeday" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
-    			</div>
-            </div>
-          </div>
-
-          <div class="noDisp">
-            <div id="recycle-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
-    		<h2 class="sectionHeader">Внимание!</h2>
-    		<p class="dialog-text">Эта функция находится в разработке и неактивна во время релиза.</p>
-    		<p class="dialog-text">Подпишитесь на каналы социальных сетей, чтобы быть в курсе последних событий.</p>
-    			<div class="modal-media">
-    		<a href="https://vk.com/daycoffee" target="_blank"><img id="icon-blog" class="modal-media-img" src="img/vk_icon.svg" /></a>
-    		<a href="https://www.facebook.com/daycoffee.org" target="_blank"><img class="modal-media-img" src="img/facebook_icon.svg" /></a>
-    		<a href="https://twitter.com/worldcoffeeday" target="_blank"><img class="modal-media-img" src="img/twitter_icon.svg" /></a>
-    			</div>
-            </div>
-          </div>
-
-          <div class="noDisp">
-            <div id="mirone-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
-              <h2 class="sectionHeader">MIR.ONE</h2>
-              <p class="dialog-text">Please visit <a href="https://mir.one/" target="_blank">Mir.One</a> gateway.</p>
-              <p class="dialog-text">You can only use Mir.One gateway if you have convergent community.</p>
-            </div>
-          </div>
-
-          <div class="noDisp">
-            <div id="kolion-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
-              <h2 class="sectionHeader">KOLION</h2>
-              <p class="dialog-text">Please visit <a href="http://kolionovo.org/" target="_blank">Kolion</a> gateway.</p>
-              <p class="dialog-text">You can only use Kolion gateway if you have Kolionovo.</p>
-            </div>
-          </div>
-
-          <div class="noDisp">
-            <div id="libre-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
-              <h2 class="sectionHeader">LIBRE</h2>
-              <p class="dialog-text">Please visit <a href="https://libre.center/" target="_blank">Libre.Center</a> gateway.</p>
-              <p class="dialog-text">You can only use Libre gateway if you have Opne Source.</p>
-            </div>
-          </div>
-
-          <div class="noDisp">
-            <div id="quest-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
-              <h2 class="sectionHeader">QUEST</h2>
-              <p class="dialog-text">Please visit <a href="https://quesplatform.org/" target="_blank">Quest</a> gateway.</p>
-              <p class="dialog-text">You can only use Quest gateway if you have game in reality.</p>
+            <div id="fst-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
+              <h2 class="sectionHeader">Лес Мира</h2>
+              <p class="dialog-text">Пожалуйста напишите <a href="https://vk.com/mirplatform" target="_blank">Роману</a> для получения адреса получения саженцев сосны корейской в г. Комсомольске-на-Амуре и экологического актива $FST, обеспеченного этими саженцами.</p>
+              <p class="dialog-text">После получения экологического актива #FST вы сможете объменять его на Децентрализованной бирже на другие активы и токены, а также передать другим пользователям используя этот кошелек экологических активов экосистемы Лес Мира</p>
             </div>
           </div>
 
@@ -962,7 +835,7 @@
             <table class="wavesTable wScroll">
               <thead>
               <tr>
-                <td>Название токена</td>
+                <td>Название актива</td>
                 <td>Эмитент</td>
                 <td>Перевыпускаемый</td>
                 <td>Баланс</td>
@@ -971,7 +844,7 @@
               </thead>
               <tbody>
               <tr ng-show="assetList.noData">
-                <td colspan="5">У вас нет ни одного созданного токена</td>
+                <td colspan="5">У вас нет ни одного созданного актива</td>
               </tr>
               <tr ng-show="!assetList.noData" ng-repeat="tx in assetList.assets | asset track by tx.id">
                 <td>
@@ -993,7 +866,7 @@
             </table>
             <div class="noDisp" ng-controller="assetDetailsController as details">
               <div id="asset-details-dialog" waves-dialog cancel-button-visible="false">
-                <h2 class="sectionHeader">Описание токена</h2>
+                <h2 class="sectionHeader">Описание экологического актива</h2>
                 <table class="wavesTable">
                   <thead>
                   <tr>
@@ -1021,7 +894,7 @@
                     <td>{{details.description}}</td>
                   </tr>
                   <tr>
-                    <td>Сумма токенов:</td>
+                    <td>Сумма экологических активов:</td>
                     <td>{{details.totalTokens}}</td>
                   </tr>
                   <tr>
@@ -1039,7 +912,7 @@
             <div class="noDisp" ng-controller="assetTransferController as transfer">
               <div id="asset-transfer-dialog" waves-dialog ok-button-caption="ОТПРАВИТЬ" on-dialog-ok="transfer.submitTransfer(transfer.assetForm)">
                 <form id="transfer-asset-form" name="transfer.assetForm" novalidate ng-validate="transfer.validationOptions">
-                  <h2 class="sectionHeader">Отправить токен</h2>
+                  <h2 class="sectionHeader">Отправить актив</h2>
                   <div class="balanceAmt">
                     <p>Баланс: </p><span class="balancewaves">{{transfer.availableBalance | moneyLong:true}}</span><br/>
                     <p>Баланс в Waves: </p><span class="balancewaves">{{transfer.feeAssetBalance | moneyLong:true}}</span>
@@ -1104,9 +977,9 @@
             <div class="noDisp" ng-controller="assetReissueController as reissue">
               <div id="asset-reissue-dialog" waves-dialog ok-button-caption="REISSUE" ok-button-enabled="!reissue.broadcast.pending" on-dialog-ok="reissue.submitReissue(reissue.assetForm)">
                 <form id="asset-reissue-form" name="reissue.assetForm" novalidate ng-validate="reissue.validationOptions">
-                  <h2 class="sectionHeader">Перевыпуск токена</h2>
+                  <h2 class="sectionHeader">Перевыпуск актива</h2>
                   <div class="balanceAmt">
-                    <p>Выпущена общая сумма токенов: </p><span class="balancewaves">{{reissue.totalTokens.formatAmount()}}</span><br/>
+                    <p>Выпущена общая сумма актива: </p><span class="balancewaves">{{reissue.totalTokens.formatAmount()}}</span><br/>
                     <p>Баланс Waves: </p><span class="balancewaves">{{reissue.wavesBalance.formatAmount(true)}}</span>
                   </div>
                   <table class="wavesTable">
@@ -1118,11 +991,11 @@
                     </thead>
                     <tbody>
                     <tr>
-                      <td>Идентификатор токена</td>
+                      <td>Идентификатор актива</td>
                       <td>{{reissue.assetId}}</td>
                     </tr>
                     <tr>
-                      <td>Имя токена</td>
+                      <td>Имя актива</td>
                       <td>{{reissue.assetName}}</td>
                     </tr>
 
@@ -1152,7 +1025,7 @@
               </div>
               <div id="asset-reissue-confirm-dialog" waves-dialog ok-button-caption="ПОДТВЕРДИТЬ" ok-button-enabled="!reissue.broadcast.pending" on-dialog-ok="reissue.broadcastTransaction()">
                 <div class="dialog-confirmation">
-                  <p class="dialog-text">Вы выпускаете дополнительную сумму <span class="confirmation-value">{{reissue.confirm.amount | moneyShort}}</span> токенов <br/>
+                  <p class="dialog-text">Вы выпускаете дополнительную сумму <span class="confirmation-value">{{reissue.confirm.amount | moneyShort}}</span> актива <br/>
                     к <span class="confirmation-value">{{reissue.confirm.amount.currency}}</span>
                     с комиссией в <span class="confirmation-value">{{reissue.confirm.fee | moneyLong:true}}</span>
                   </p>
@@ -1285,7 +1158,7 @@
         <div id="mBB-token" class="mBB-content" ng-switch-when="tokens">
 
           <div ng-controller="tokenCreateController as ctrl">
-            <h2 class="sectionHeader">Выпустить токен</h2>
+            <h2 class="sectionHeader">Выпустить актив</h2>
             <form id="create-asset-form" name="createAssetForm" novalidate ng-validate="ctrl.issuanceValidationOptions" ng-submit="ctrl.assetIssueConfirmation(createAssetForm, $event)">
               <div class="balanceAmt">
                 <p>Баланс в Waves: </p><span class="balancewaves">{{ctrl.wavesBalance | moneyLong:true}}</span>
@@ -1299,34 +1172,34 @@
                 </thead>
                 <tbody>
                 <tr>
-                  <td><label for="assetName">Название токена</label></td>
-                  <td><input id="assetName" name="assetName" type="text" class="wInput form-control" focus-me="true" ng-model="ctrl.asset.name" tooltipster tooltip-theme="tooltipster-theme1" tooltip-html title="В этом поле вписывается название вашего<br/>токена.<br/><br/>Он может содержать до 16 буквенно-цифровых<br/> символов."/></td>
+                  <td><label for="assetName">Название актива</label></td>
+                  <td><input id="assetName" name="assetName" type="text" class="wInput form-control" focus-me="true" ng-model="ctrl.asset.name" tooltipster tooltip-theme="tooltipster-theme1" tooltip-html title="В этом поле вписывается название вашего<br/>актива.<br/><br/>Он может содержать до 16 буквенно-цифровых<br/> символов."/></td>
                 </tr><br/>
                 <tr>
                   <td><label for="assetDescription">Описание</label></td>
                   <td><textarea id="assetDescription" name="assetDescription" class="wInput" rows="3" ng-model="ctrl.asset.description" tooltipster tooltip-theme="tooltipster-theme1" tooltip-html title="Описание нельзя изменить позже.<br/>"></textarea></td>
                 </tr>
                 <tr>
-                  <td><label for="assetTotalTokens">Всего токенов</label></td>
+                  <td><label for="assetTotalTokens">Всего актива</label></td>
                   <td><input id="assetTotalTokens" name="assetTotalTokens" class="wInput" type="text" ng-model="ctrl.asset.totalTokens" integer-input-restrictor tooltipster tooltip-theme="tooltipster-theme1" tooltip-html title="
                   	Перевыпускаемый тип <br/>
                   	позволяет при необходимости <br/>
-                  	увеличить количество токенов.<br/>
-					Количество токенов <br/>
+                  	увеличить количество актива.<br/>
+					Количество актива <br/>
 					неперевыпускаемого типа не <br/>
 					может быть изменено в будущем."/></td>
                 </tr>
                 <tr>
                   <td><label for="assetTokenDecimalPlaces">Десятичные знаки</label></td>
-                  <td><input id="assetTokenDecimalPlaces" name="assetTokenDecimalPlaces" class="wInput" type="text" ng-model="ctrl.asset.decimalPlaces" integer-input-restrictor tooltipster tooltip-theme="tooltipster-theme1" tooltip-html title="Это поле определяет,<br/>сколько знаков после<br/>запятой будет у<br/>создаваемого токена."/></td>
+                  <td><input id="assetTokenDecimalPlaces" name="assetTokenDecimalPlaces" class="wInput" type="text" ng-model="ctrl.asset.decimalPlaces" integer-input-restrictor tooltipster tooltip-theme="tooltipster-theme1" tooltip-html title="Это поле определяет,<br/>сколько знаков после<br/>запятой будет у<br/>создаваемого актива."/></td>
                 </tr>
                 <tr>
                   <td><label for="assetReissuable">Перевыпускаемый</label></td>
-                  <td><input id="assetReissuable" name="assetReissuable" type="checkbox" class="wInput" ng-model="ctrl.asset.reissuable" tooltipster tooltip-theme="tooltipster-theme1" tooltip-html title="ПЕРЕВЫПУСК позволяет дополнительную <br/>  эмиссию токенов, которые будут <br/>добавлены к вашему активу. <br/> <br/> Токен без ПЕРЕВЫПУСКА будет ограничен <br/>суммарным количеством, определенным<br/> в этой форме."/></td>
+                  <td><input id="assetReissuable" name="assetReissuable" type="checkbox" class="wInput" ng-model="ctrl.asset.reissuable" tooltipster tooltip-theme="tooltipster-theme1" tooltip-html title="ПЕРЕВЫПУСК позволяет дополнительную <br/>  эмиссию актива, которые будут <br/>добавлены к вашему активу. <br/> <br/> Актив без ПЕРЕВЫПУСКА будет ограничен <br/>суммарным количеством, определенным<br/> в этой форме."/></td>
                 </tr>
                 <tr class="noSelect">
                   <td>Комиссия</td>
-                  <td tooltipster tooltip-theme="tooltipster-theme1" tooltip-html title="КОМИССИЯ необходима для оплаты <br/> выпуска токена.">{{::ctrl.asset.fee.formatAmount(true)}} {{::ctrl.asset.fee.currency.displayName}}</td>
+                  <td tooltipster tooltip-theme="tooltipster-theme1" tooltip-html title="КОМИССИЯ необходима для оплаты <br/> выпуска актива.">{{::ctrl.asset.fee.formatAmount(true)}} {{::ctrl.asset.fee.currency.displayName}}</td>
                 </tr>
                 </tbody>
               </table>
@@ -1338,12 +1211,12 @@
 
             <div id="create-asset-confirmation" waves-dialog ok-button-caption="ПОДТВЕРДИТЬ" ok-button-enabled="!ctrl.broadcast.pending" on-dialog-ok="ctrl.broadcastIssueTransaction()">
               <div class="dialog-confirmation">
-                <p class="dialog-text">Вы выпускаете <span class="confirmation-value">{{ctrl.confirm.reissuable}}</span> токен под именем
+                <p class="dialog-text">Вы выпускаете <span class="confirmation-value">{{ctrl.confirm.reissuable}}</span> актив под именем
                   <span class="confirmation-value">{{ctrl.confirm.name}}</span><br/> с общим числом
-                  <span class="confirmation-value">{{ctrl.confirm.totalTokens}}</span> общей суммы токенов
+                  <span class="confirmation-value">{{ctrl.confirm.totalTokens}}</span> общей суммы актива
                 </p>
-                <p class="dialog-text notice-alert" ng-if="!ctrl.asset.reissuable">Обратите внимание, что вы пометили токен как НЕ ПЕРЕВЫПУСКАЕМЫЙ. <br/>
-                   Токены, созданные как ПЕРЕВЫПУСКАЕМЫЕ, могут быть позже изменены на НЕ ПЕРЕВЫПУСКАЕМЫЕ, <br/> однако токена, помеченные как НЕ ПЕРЕВЫПУСКАЕМЫЕ, никогда не могут быть ПЕРЕВЫПУЩЕНЫ.</p>
+                <p class="dialog-text notice-alert" ng-if="!ctrl.asset.reissuable">Обратите внимание, что вы пометили актив как НЕ ПЕРЕВЫПУСКАЕМЫЙ. <br/>
+                   Активы, созданные как ПЕРЕВЫПУСКАЕМЫЕ, могут быть позже изменены на НЕ ПЕРЕВЫПУСКАЕМЫЕ, <br/> однако активы, помеченные как НЕ ПЕРЕВЫПУСКАЕМЫЕ, никогда не могут быть ПЕРЕВЫПУЩЕНЫ.</p>
                 <p class="dialog-text">Пожалуйста <span class="fontBold"> ПОДТВЕРДИТЕ </span>для выпуска или <span class="fontBold"> ОТМЕНИТЕ </span> чтобы выйти.</p>
               </div>
             </div>
@@ -1385,8 +1258,8 @@
         <!-- COMMUNITY TAB -->
         <div id="mBB-community" class="mBB-content" ng-switch-when="community" ng-controller="communityController as community">
           <!-- Temporary -->
-          <h2 class="sectionHeader">КАРТА ТРЕТЬЕЙ КОФЕЙНОЙ ВОЛНЫ</h2>
-         <iframe src="https://daycoffee.org/maps" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <h2 class="sectionHeader">КАРТА ЛЕСА МИРА</h2>
+<iframe src="https://www.google.com/maps/d/embed?mid=1_8o5ogYihPJ-3_X37bqhqX6ChXD0JpqL" width="100%" height="100%"></iframe>
 <!--
           <p class="centerIt">
           <div id="latestBlocks" class="wavesTable wScroll" >

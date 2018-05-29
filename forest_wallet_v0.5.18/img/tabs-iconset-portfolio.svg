@@ -1,26 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Roman Inozemtsev: https://github.com/mir-one/  -->
 <svg version="1.1"
-	 id="Слой_1" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+	 id="Слой_1" shape-rendering="geometricPrecision" image-rendering="optimizeQuality" text-rendering="geometricPrecision"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24"
 	 style="enable-background:new 0 0 24 24;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#4397C5;}
+	.st0{fill:url(#SVGID_1_);}
 	.st1{fill:#FFFFFF;}
+	.st2{fill:url(#SVGID_2_);}
+	.st3{fill:url(#SVGID_3_);}
+	.st4{fill:url(#SVGID_4_);}
+	.st5{fill:url(#SVGID_5_);}
 </style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="12" y1="0.375" x2="12" y2="24.375">
+	<stop  offset="0" style="stop-color:#25A9E0"/>
+	<stop  offset="1" style="stop-color:#00A551"/>
+</linearGradient>
 <circle class="st0" cx="12" cy="12" r="12"/>
 <circle class="st1" cx="12" cy="12" r="11"/>
-<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -4.9706 12)" class="st1" cx="12" cy="12" rx="10.4" ry="10.4"/>
+<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -4.9706 11.9999)" class="st1" cx="12" cy="12" rx="10.4" ry="10.4"/>
 <g>
-	<path class="st0" d="M16.6,12c0,1.4,0,2.9,0,4.3c0,0.7-0.3,1-1,1c-2.4,0-4.8,0-7.2,0c-0.8,0-1-0.3-1-1c0-2.9,0-5.7,0-8.6
-		c0-0.8,0.2-1,1-1c2.4,0,4.9,0,7.3,0c0.8,0,1,0.2,1,1C16.6,9.1,16.6,10.6,16.6,12C16.6,12,16.6,12,16.6,12z M12.6,8.4
-		c-1.3,0-2.3,1-2.3,2.2c0,1.2,1,2.2,2.2,2.3c1.3,0,2.3-1,2.3-2.3C14.9,9.4,13.9,8.5,12.6,8.4z M8.7,12c0-1.3,0-2.7,0-4
-		c0-0.2-0.1-0.3-0.2-0.5C8.4,7.7,8.2,7.8,8.2,8c0,2.7,0,5.3,0,8c0,0.2,0.2,0.3,0.3,0.5c0.1-0.2,0.2-0.3,0.2-0.5
-		C8.7,14.7,8.7,13.4,8.7,12z"/>
-	<path class="st0" d="M8.8,17.8c0.5,0,1,0,1.5,0c0,0.5-0.3,0.8-0.7,0.8C9.1,18.6,8.8,18.3,8.8,17.8z"/>
-	<path class="st0" d="M13.7,17.8c0.5,0,1,0,1.5,0c0,0.5-0.3,0.7-0.7,0.8C14,18.6,13.8,18.3,13.7,17.8z"/>
-	<path class="st0" d="M10.8,10.7c0-1,0.8-1.8,1.8-1.8c1,0,1.8,0.8,1.8,1.8c0,1-0.8,1.8-1.8,1.8C11.6,12.5,10.8,11.7,10.8,10.7z
-		 M13.3,9.7c-0.6-0.4-1.2-0.3-1.6,0.2c-0.4,0.5-0.3,1.2,0.1,1.6c0.4,0.4,1.1,0.5,1.6,0.1c0.5-0.4,0.6-0.9,0.2-1.5
-		c-0.2,0.1-0.3,0.3-0.5,0.4c-0.1,0.1-0.2,0-0.4,0c0-0.1,0-0.3,0-0.4C13,10,13.1,9.9,13.3,9.7z"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="12.05" y1="0" x2="12.05" y2="24.3779">
+		<stop  offset="0" style="stop-color:#25A9E0"/>
+		<stop  offset="1" style="stop-color:#00A551"/>
+	</linearGradient>
+	<path class="st2" d="M16.6,12c0,1.4,0,2.9,0,4.3c0,0.7-0.3,1-1,1c-2.4,0-4.8,0-7.2,0c-0.8,0-1-0.3-1-1c0-2.9,0-5.7,0-8.6
+		c0-0.8,0.2-1,1-1c2.4,0,4.9,0,7.3,0c0.8,0,1,0.2,1,1C16.6,9.1,16.6,10.6,16.6,12L16.6,12z M12.6,8.4c-1.3,0-2.3,1-2.3,2.2
+		s1,2.2,2.2,2.3c1.3,0,2.3-1,2.3-2.3C14.9,9.4,13.9,8.5,12.6,8.4z M8.7,12c0-1.3,0-2.7,0-4c0-0.2-0.1-0.3-0.2-0.5
+		C8.4,7.7,8.2,7.8,8.2,8c0,2.7,0,5.3,0,8c0,0.2,0.2,0.3,0.3,0.5c0.1-0.2,0.2-0.3,0.2-0.5C8.7,14.7,8.7,13.4,8.7,12z"/>
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="9.55" y1="0" x2="9.55" y2="24.3779">
+		<stop  offset="0" style="stop-color:#25A9E0"/>
+		<stop  offset="1" style="stop-color:#00A551"/>
+	</linearGradient>
+	<path class="st3" d="M8.8,17.8c0.5,0,1,0,1.5,0c0,0.5-0.3,0.8-0.7,0.8C9.1,18.6,8.8,18.3,8.8,17.8z"/>
+	<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="14.45" y1="-9.094947e-13" x2="14.45" y2="24.3779">
+		<stop  offset="0" style="stop-color:#25A9E0"/>
+		<stop  offset="1" style="stop-color:#00A551"/>
+	</linearGradient>
+	<path class="st4" d="M13.7,17.8c0.5,0,1,0,1.5,0c0,0.5-0.3,0.7-0.7,0.8C14,18.6,13.8,18.3,13.7,17.8z"/>
+	<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="12.6" y1="-9.094947e-13" x2="12.6" y2="24.3779">
+		<stop  offset="0" style="stop-color:#25A9E0"/>
+		<stop  offset="1" style="stop-color:#00A551"/>
+	</linearGradient>
+	<path class="st5" d="M10.8,10.7c0-1,0.8-1.8,1.8-1.8s1.8,0.8,1.8,1.8s-0.8,1.8-1.8,1.8S10.8,11.7,10.8,10.7z M13.3,9.7
+		c-0.6-0.4-1.2-0.3-1.6,0.2c-0.4,0.5-0.3,1.2,0.1,1.6c0.4,0.4,1.1,0.5,1.6,0.1s0.6-0.9,0.2-1.5c-0.2,0.1-0.3,0.3-0.5,0.4
+		c-0.1,0.1-0.2,0-0.4,0c0-0.1,0-0.3,0-0.4C13,10,13.1,9.9,13.3,9.7z"/>
 </g>
 </svg>
