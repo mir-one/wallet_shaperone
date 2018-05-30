@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Roman Inozemtsev: https://github.com/mir-one/  -->
 <svg version="1.1"
-	 id="Слой_1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+	 id="Слой_1" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" image-rendering="optimizeQuality"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24"
 	 style="enable-background:new 0 0 24 24;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#fdcd0b;}
+	.st0{fill:#EC2027;}
 	.st1{fill:#FFFFFF;}
 </style>
 <circle class="st0" cx="12" cy="12" r="12"/>
