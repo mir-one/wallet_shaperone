@@ -47,6 +47,8 @@
 ![moneyenergy_wallet](https://github.com/mir-one/wallet/blob/master/moneyenergy_wallet_v0.5.18/moneyenergy.png)[mir.one/moneyenergy](https://mir.one/moneyenergy/)
 * **noxbox_wallet** - (EN) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетом Noxbox
 ![noxbox_wallet](https://github.com/mir-one/wallet/blob/master/noxbox_wallet_v0.5.18/Noxbox.png)[mir.one/noxbox](https://mir.one/noxbox/)
+* **rainbow_wallet** - (EN) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетом Rainbow
+![rainbow_wallet](https://github.com/mir-one/wallet/blob/master/rainbow_wallet_v0.5.18/rainbow.png)[mir.one/rainbow](https://mir.one/raainbow/)
 * **rfs_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетом CONST (Константа) - Родовая Финансовая Система.
 ![rfs_wallet]()
 
