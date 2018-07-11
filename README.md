@@ -41,7 +41,7 @@
 ![librebank_wallet](https://github.com/mir-one/wallet/blob/master/librebank_wallet_v0.5.18/librebank.png)[mir.one/librebank](https://mir.one/librebank/)
 * **mashkino_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетами фермерского хозяйства Машкино (Mashkino, Гусиб Утки
 ![mashkino_wallet](https://github.com/mir-one/wallet/blob/master/mashkino_wallet_v0.5.18/mashkino.png)[mir.one/mashkino](https://mir.one/mashkino/)
-* **mir.one_wallet** - (RU) NODE_ADDRESS: 'https://nodes.wavesplatform.com',
+* **mir.one_wallet** - (RU) NODE_ADDRESS: 'mir_network',
 ![mir.one_wallet]()
 * **moneyenergy_wallet** - (EN) NODE_ADDRESS: 'https://nodes.wavesplatform.com', клиент для работы с ассетом Money Energy
 ![moneyenergy_wallet](https://github.com/mir-one/wallet/blob/master/moneyenergy_wallet_v0.5.18/moneyenergy.png)[mir.one/moneyenergy](https://mir.one/moneyenergy/)
