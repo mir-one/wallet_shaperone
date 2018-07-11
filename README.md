@@ -1,4 +1,4 @@
-# Wallet
+# Кошелек
 
 * Загрузите и распакуйте zip в любой каталог, можно использовать git clone https://github.com/mir-one/wallet.git </br>
 * Перейдите в каталог **wallet**</br>
