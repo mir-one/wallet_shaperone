@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Roman Inozemtsev: https://github.com/mir-one/  -->
+<svg version="1.1"
+	 id="Слой_1" shape-rendering="geometricPrecision" image-rendering="optimizeQuality" text-rendering="geometricPrecision"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 114 114"
+	 style="enable-background:new 0 0 114 114;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#C8DAEA;}
+	.st2{fill:#A9C9DD;}
+	.st3{fill:url(#SVGID_2_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-477.6929" y1="3.1085" x2="-477.8116" y2="3.3854" gradientTransform="matrix(240 0 0 240 114720 -727.9985)">
+	<stop  offset="0" style="stop-color:#37AEE2"/>
+	<stop  offset="1" style="stop-color:#1E96C8"/>
+</linearGradient>
+<path class="st0" d="M109.8,47L67,4.1c-5.5-5.5-14.6-5.5-20.1,0L4.2,46.9c-5.6,5.6-5.6,14.6,0,20.2l42.7,42.8
+	c5.5,5.5,14.6,5.5,20.1,0l42.8-42.8C115.3,61.6,115.3,52.5,109.8,47z"/>
+<path class="st1" d="M46.5,83.1c-1.8,0-1.5-0.7-2.2-2.5L39,62.8L80.8,38"/>
+<path class="st2" d="M46.5,83.1c1.4,0,2.1-0.7,2.9-1.4l7.6-7.4l-9.5-5.7"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-476.2292" y1="6.5253" x2="-476.1382" y2="6.699" gradientTransform="matrix(130.4927 0 0 109.4496 62205.4258 -655.8187)">
+	<stop  offset="0" style="stop-color:#EFF7FC"/>
+	<stop  offset="1" style="stop-color:#FFFFFF"/>
+</linearGradient>
+<path class="st3" d="M47.5,68.6l23,17c2.6,1.4,4.5,0.7,5.2-2.4L85,39.1c1-3.8-1.5-5.6-4-4.4L26.1,55.8c-3.7,1.5-3.7,3.6-0.7,4.5
+	l14.1,4.4l32.6-20.6c1.5-0.9,3-0.4,1.8,0.6"/>
+</svg>
