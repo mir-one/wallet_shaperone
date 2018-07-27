@@ -1,18 +1,85 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Roman Inozemtsev: https://github.com/mir-one/  -->
-<svg version="1.1"
-	 id="Слой_1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50"
-	 style="enable-background:new 0 0 50 50;" xml:space="preserve">
-<style type="text/css">
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Слой_1"
+   shape-rendering="geometricPrecision"
+   text-rendering="geometricPrecision"
+   image-rendering="optimizeQuality"
+   x="0px"
+   y="0px"
+   viewBox="0 0 50 50"
+   style="enable-background:new 0 0 50 50;"
+   xml:space="preserve"
+   sodipodi:docname="uiTB-iconset-backup.svg"
+   inkscape:version="0.92.2pre0 (973e216, 2017-07-25)"><metadata
+     id="metadata19"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs17" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="696"
+     id="namedview15"
+     showgrid="false"
+     inkscape:zoom="18.88"
+     inkscape:cx="2.1621158"
+     inkscape:cy="20.331512"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Слой_1" /><style
+     type="text/css"
+     id="style2">
 	.st0{fill:#EFC818;}
 	.st1{fill:#FFFFFF;}
-</style>
-<circle class="st0" cx="25" cy="25" r="25"/>
-<circle class="st1" cx="25" cy="25" r="21.7"/>
-<circle class="st1" cx="25" cy="25" r="23.1"/>
-<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -10.3552 24.9997)" class="st0" cx="25" cy="25" rx="21" ry="21"/>
-<path class="st1" d="M27.8,25c0-1.5-1.2-2.7-2.7-2.7s-2.7,1.2-2.7,2.7s1.2,2.7,2.7,2.7S27.8,26.5,27.8,25z M25,12.8
-	c-6.7,0-12.2,5.5-12.2,12.2h-4l5.4,5.4l5.4-5.4h-4.1c0-5.2,4.2-9.5,9.5-9.5s9.5,4.2,9.5,9.5s-4.2,9.5-9.5,9.5c-2,0-3.9-0.7-5.5-1.8
-	l-1.9,2c2.1,1.6,4.6,2.5,7.4,2.5c6.7,0,12.2-5.5,12.2-12.2S31.8,12.8,25,12.8z"/>
-</svg>
+</style><circle
+     class="st0"
+     cx="25"
+     cy="25"
+     r="25"
+     id="circle4"
+     style="fill:#ed443e;fill-opacity:1" /><circle
+     class="st1"
+     cx="25"
+     cy="25"
+     r="21.7"
+     id="circle6" /><circle
+     class="st1"
+     cx="25"
+     cy="25"
+     r="23.1"
+     id="circle8"
+     style="fill:#ffffff" /><ellipse
+     transform="matrix(0.7071 -0.7071 0.7071 0.7071 -10.3552 24.9997)"
+     class="st0"
+     cx="25"
+     cy="25"
+     rx="21"
+     ry="21"
+     id="ellipse10"
+     style="fill:#ed443e;fill-opacity:1" /><path
+     class="st1"
+     d="M27.8,25c0-1.5-1.2-2.7-2.7-2.7s-2.7,1.2-2.7,2.7s1.2,2.7,2.7,2.7S27.8,26.5,27.8,25z M25,12.8  c-6.7,0-12.2,5.5-12.2,12.2h-4l5.4,5.4l5.4-5.4h-4.1c0-5.2,4.2-9.5,9.5-9.5s9.5,4.2,9.5,9.5s-4.2,9.5-9.5,9.5c-2,0-3.9-0.7-5.5-1.8  l-1.9,2c2.1,1.6,4.6,2.5,7.4,2.5c6.7,0,12.2-5.5,12.2-12.2S31.8,12.8,25,12.8z"
+     id="path12" /><style
+     id="style826"
+     type="text/css">
+	.st0{fill:#ED443E;}
+	.st1{fill:#C2232F;}
+	.st2{fill:#25A9E0;}
+</style></svg>
