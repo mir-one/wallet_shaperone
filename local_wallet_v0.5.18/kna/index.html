@@ -21,7 +21,7 @@
   <meta charset="utf-8">
   <title>Local Business</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/local-0.5.18.css">
+  <link rel="stylesheet" href="css/local.css">
 
   <link href="img/favicon.png" type="image/x-icon" rel="shortcut icon">
 </head>
@@ -145,7 +145,7 @@
 
                 <div class="form-field">
                   <label for="walletName">
-                    Имя<span class="infoSpan" tooltipster tooltip-theme="tooltipster-theme1" tooltip-html title="Создайте имя вашему аккаунту, 
+                    Имя<span class="infoSpan" tooltipster tooltip-theme="tooltipster-theme1" tooltip-html title="Создайте имя вашему аккаунту,
                                                 <br/>
                                                 для этого используйте поле ниже.
                                                </i>"></span>
@@ -323,7 +323,7 @@
     <!-- APPLICATION TAB SELECTORS -->
     <section id="tabs" class="fFade noSelect">
       <div id="tabs-Iconset" class="centerIt">
-                
+
 
         <span waves-tab
               on-select="nav.changeTab(pageId)"
@@ -334,7 +334,7 @@
               tooltip-html
               tooltip-theme="tooltipster-theme3"
               tooltip-title="<center><u>Кошелек</u></center><br/>Вкладка отображения основных активов"></span>
-                   
+
         <span waves-tab
               on-select="nav.changeTab(pageId)"
               current-page-id="nav.currentTab"
@@ -353,7 +353,7 @@
               tooltip-html
               tooltip-theme="tooltipster-theme3"
               tooltip-title="<center><u>Децентрализованная Биржа</u></center><br/>Доступ к рынкам, где вы можете покупать,<br/>продавать и торговать активами."></span>
-        
+
         <!--<span waves-tab
               on-select="nav.changeTab(pageId)"
               current-page-id="nav.currentTab"
@@ -364,17 +364,17 @@
               tooltip-theme="tooltipster-theme3"
               tooltip-title="<center><u>Лизинг</u></center><br/>Сдайте в лизин ваши Waves<br/>другому кошельку."></span>
           -->
-        
-      <!--<span waves-tab 
-        on-select="nav.changeTab(pageId)" 
-        current-page-id="nav.currentTab" 
-        page-id="voting" 
-        caption="'Voting tab'" 
+
+      <!--<span waves-tab
+        on-select="nav.changeTab(pageId)"
+        current-page-id="nav.currentTab"
+        page-id="voting"
+        caption="'Voting tab'"
         tooltipster tooltip-html
-        tooltip-theme="tooltipster-theme3" 
+        tooltip-theme="tooltipster-theme3"
         tooltip-title="<center><u>Voting Area</u></center><br/>Decentralized voting utility."></span>
     -->
-        
+
         <span waves-tab
               on-select="nav.changeTab(pageId)"
               current-page-id="nav.currentTab"
@@ -384,7 +384,7 @@
               tooltip-html
               tooltip-theme="tooltipster-theme3"
               tooltip-title="<center><u>История</u></center><br/>Доступ ко всей истории транзакций."></span>
-        
+
         <span waves-tab
               on-select="nav.changeTab(pageId)"
               current-page-id="nav.currentTab"
@@ -394,18 +394,18 @@
               tooltip-html
               tooltip-theme="tooltipster-theme3"
               tooltip-title="<center><u>Выпуск актива</u></center><br/>Здесь вы можете создать свой актив."></span>
-        
-      <!--  СООБЩЕНИЯ   
-        	<span waves-tab 
+
+      <!--  СООБЩЕНИЯ
+        	<span waves-tab
         	on-select="nav.changeTab(pageId)" current-page-id="nav.currentTab"
-        	 page-id="messages" 
-        	 caption="'messages tab'" 
+        	 page-id="messages"
+        	 caption="'messages tab'"
         	 tooltipster tooltip-html
-        tooltip-theme="tooltipster-theme3" 
-        tooltip-title="<center><u>messages</u></center><br/>Messages."></span> 	
+        tooltip-theme="tooltipster-theme3"
+        tooltip-title="<center><u>messages</u></center><br/>Messages."></span>
 -->
 
-		<!--   
+		<!--
         <span waves-tab
               on-select="nav.changeTab(pageId)"
               current-page-id="nav.currentTab"
@@ -699,7 +699,7 @@
     		<a href="https://vk.com/localwaves" target="_blank"><img id="icon-blog" class="modal-media-img" src="img/vk_icon.svg" /></a>
     			</div>
             </div>
-          </div>       
+          </div>
 
            <div class="noDisp">
             <div id="clothing-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
@@ -710,7 +710,7 @@
     		<a href="https://vk.com/localwaves" target="_blank"><img id="icon-blog" class="modal-media-img" src="img/vk_icon.svg" /></a>
     			</div>
             </div>
-          </div>            
+          </div>
 
           <div class="noDisp">
             <div id="tattoo-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
@@ -917,7 +917,7 @@
                   <button class="wButton wButton-neg fade" ng-click="assetList.assetDetails(tx.id)">ОПИСАНИЕ</button><span class="divider-2"></span>
                   <!-- TODO: remove MASS PAY feature or re-engineer it using a centralized service
                   <button class="wButton wButton-neg fade" ng-click="assetList.assetMassPay(tx.id)">МАССОВАЯ ОТПРАВКА</button>  -->
-           
+
                 </td>
               </tr>
               </tbody>
@@ -1165,7 +1165,7 @@
               </div>
               <div id="asset-mass-pay-confirmation" waves-dialog ok-button-caption="ПОДТВЕРДИТЬ" ok-button-enabled="!mass.broadcast.pending" on-dialog-ok="mass.broadcastTransaction()">
                 <div class="dialog-confirmation">
-                  <p class="dialog-text">Вы отправляете <span class="confirmation-value">{{mass.confirm.amount | moneyLong:true}}</span> с 
+                  <p class="dialog-text">Вы отправляете <span class="confirmation-value">{{mass.confirm.amount | moneyLong:true}}</span> с
                     <span class="confirmation-value">{{mass.confirm.fee | moneyLong:true}}</span> суммой комиссии <br/>
                     на <span class="confirmation-value">{{mass.confirm.recipients}}</span> адреса получателей.
                   </p>
@@ -1289,8 +1289,6 @@
             <br/>
             <p>
 
-
-
           </div>
           <div id="addContact-wPop" class="wavesPop">
             <img class="wPop-header" src="img/modal-header.svg" />
@@ -1313,11 +1311,12 @@
         </div>
       -->
 
-        <!-- COMMUNITY TAB  
-        <div id="mBB-community" class="mBB-content" ng-switch-when="community" ng-controller="communityController as community">	-->
+        <!-- COMMUNITY TAB -->
+        <div id="mBB-community" class="mBB-content" ng-switch-when="community" ng-controller="communityController as community">
           <!-- Temporary -->
-         <!-- <h2 class="sectionHeader">ЦИФРОВОЙ ШЁЛК</h2>
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1003.9648239765615!2d37.56227611510816!3d55.732197336867756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b96f7b6dc33%3A0xc12efce666d3062c!2z0JHQvtC70YzRiNC-0Lkg0KHQsNCy0LLQuNC90YHQutC40Lkg0L_QtdGALiwgMTIsINCc0L7RgdC60LLQsCwgMTE5NDM1!5e1!3m2!1sru!2sru!4v1521973857819" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+         <h2 class="sectionHeader">КАРТА ЛОКАЛЬНОГО БИЗНЕСА</h2>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1003.9648239765615!2d37.56227611510816!3d55.732197336867756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b96f7b6dc33%3A0xc12efce666d3062c!2z0JHQvtC70YzRiNC-0Lkg0KHQsNCy0LLQuNC90YHQutC40Lkg0L_QtdGALiwgMTIsINCc0L7RgdC60LLQsCwgMTE5NDM1!5e1!3m2!1sru!2sru!4v1521973857819" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+
 <!--
           <p class="centerIt">
           <div id="latestBlocks" class="wavesTable wScroll" >
@@ -1360,7 +1359,7 @@
   </div>
 </div> <!-- Wrapper div END -->
 
-<script src="js/local-0.5.18.js"></script>
+<script src="js/local.js"></script>
 
 
 </body>
