@@ -37,9 +37,9 @@
      inkscape:window-height="696"
      id="namedview15"
      showgrid="false"
-     inkscape:zoom="18.88"
-     inkscape:cx="2.1621158"
-     inkscape:cy="20.331512"
+     inkscape:zoom="13.350176"
+     inkscape:cx="9.5708865"
+     inkscape:cy="13.446837"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -76,7 +76,8 @@
      style="fill:#ed443e;fill-opacity:1" /><path
      class="st1"
      d="M27.8,25c0-1.5-1.2-2.7-2.7-2.7s-2.7,1.2-2.7,2.7s1.2,2.7,2.7,2.7S27.8,26.5,27.8,25z M25,12.8  c-6.7,0-12.2,5.5-12.2,12.2h-4l5.4,5.4l5.4-5.4h-4.1c0-5.2,4.2-9.5,9.5-9.5s9.5,4.2,9.5,9.5s-4.2,9.5-9.5,9.5c-2,0-3.9-0.7-5.5-1.8  l-1.9,2c2.1,1.6,4.6,2.5,7.4,2.5c6.7,0,12.2-5.5,12.2-12.2S31.8,12.8,25,12.8z"
-     id="path12" /><style
+     id="path12"
+     style="fill:#ffffff" /><style
      id="style826"
      type="text/css">
 	.st0{fill:#ED443E;}

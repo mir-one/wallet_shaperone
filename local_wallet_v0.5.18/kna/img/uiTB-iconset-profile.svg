@@ -33,16 +33,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="835"
-     inkscape:window-height="480"
+     inkscape:window-width="1366"
+     inkscape:window-height="696"
      id="namedview15"
      showgrid="false"
-     inkscape:zoom="2.6074563"
-     inkscape:cx="-11.743586"
-     inkscape:cy="32.247043"
+     inkscape:zoom="41.719301"
+     inkscape:cx="0.86573666"
+     inkscape:cy="4.5869433"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="Слой_1" /><style
      type="text/css"
      id="style2">
@@ -64,7 +64,8 @@
      cx="8"
      cy="8"
      r="7.4"
-     id="circle8" /><ellipse
+     id="circle8"
+     style="fill:#ffffff" /><ellipse
      transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3137 7.9999)"
      class="st0"
      cx="8"
@@ -75,7 +76,8 @@
      style="fill:#ed443e;fill-opacity:1" /><path
      class="st1"
      d="M8,5.1c0.5,0,0.9,0.4,0.9,0.9S8.5,6.9,8,6.9S7.1,6.5,7.1,6S7.5,5.1,8,5.1 M8,9c1.3,0,2.6,0.6,2.6,0.9v0.5H5.4  V9.9C5.4,9.7,6.7,9,8,9 M8,4.3C7,4.3,6.3,5.1,6.3,6S7.1,7.8,8,7.8S9.8,7,9.8,6S9,4.3,8,4.3z M8,8.2c-1.2,0-3.5,0.6-3.5,1.7v1.3h6.9  V9.9C11.5,8.8,9.2,8.2,8,8.2z"
-     id="path12" /><style
+     id="path12"
+     style="fill:#ffffff" /><style
      id="style2-35"
      type="text/css">
 	.st0{fill:#EFC818;}
