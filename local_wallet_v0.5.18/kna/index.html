@@ -912,11 +912,12 @@
                 <td>{{tx.balance | moneyShort}}</td>
                 <td>
                   <button class="wButton wButton-neg fade" ng-click="assetList.assetTransfer(tx.id)">ОТПРАВИТЬ</button><span class="divider-2"></span>
-                  <button class="wButton wButton-neg fade" ng-disabled="!tx.formatted.canReissue" ng-click="assetList.assetReissue(tx.id)">ПЕРЕВЫПУСТИТЬ</button><span class="divider-2"></span>
+                  <!--<button class="wButton wButton-neg fade" ng-disabled="!tx.formatted.canReissue" ng-click="assetList.assetReissue(tx.id)">ПЕРЕВЫПУСТИТЬ</button><span class="divider-2"></span>
+-->
                   <button class="wButton wButton-neg fade" ng-click="assetList.assetDetails(tx.id)">ОПИСАНИЕ</button><span class="divider-2"></span>
-                  <!-- TODO: remove MASS PAY feature or re-engineer it using a centralized service
-                  <button class="wButton wButton-neg fade" ng-click="assetList.assetMassPay(tx.id)">МАССОВАЯ ОТПРАВКА</button>  -->
-
+                  <!-- TODO: remove MASS PAY feature or re-engineer it using a centralized service -->
+                  <!--<button class="wButton wButton-neg fade" ng-click="assetList.assetMassPay(tx.id)">МАССОВАЯ ОТПРАВКА</button>
+-->
                 </td>
               </tr>
               </tbody>
