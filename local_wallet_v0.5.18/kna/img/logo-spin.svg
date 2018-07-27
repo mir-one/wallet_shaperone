@@ -1,22 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1"
-	 id="Слой_1" image-rendering="optimizeQuality" text-rendering="geometricPrecision" shape-rendering="geometricPrecision"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 65.9 76.1"
-	 style="enable-background:new 0 0 65.9 76.1;" xml:space="preserve">
-<style type="text/css">
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Слой_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 65.543486 76.099756"
+   style="image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+   xml:space="preserve"
+   sodipodi:docname="logo-spin.svg"
+   width="65.543488"
+   height="76.099754"
+   inkscape:version="0.92.2pre0 (973e216, 2017-07-25)"><metadata
+     id="metadata15"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs13" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="696"
+     id="namedview11"
+     showgrid="false"
+     inkscape:zoom="4.3857347"
+     inkscape:cx="27.821518"
+     inkscape:cy="34.89522"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Слой_1" /><style
+     type="text/css"
+     id="style2">
 	.st0{fill:#ED443E;}
 	.st1{fill:#C2232F;}
-</style>
-<g>
-	<path class="st0" d="M33.6,76.1c-0.8,0.4-1.2-0.4-1.6-0.4c-7-3.7-13.5-7.8-20.5-11.9c-3.7-2-7-4.1-10.6-6.1C0.4,57.3,0,56.9,0,56.5
-		c0-12.3,0-24.6,0-36.8c0-0.8,0.4-0.8,0.8-1.2c7.8-4.5,15.6-9,23.3-13.5c2.5-1.6,4.9-2.9,7.8-4.5c0.4,0,0.8-0.4,0.8-0.4
-		c0.4,0.4,0,0.8,0,1.2c0,5.7,0,11,0,16.8c0,0.8,0.4,1.2,1.2,1.2c10.2,0,20.1,0,30.3,0c0.4,0,0.8,0,1.2,0c0,0.4-0.2,0.4-0.8,0.8
-		c-3.7,2.1-6.5,3.7-9.8,5.7c-7,4.1-13.9,7.8-20.5,11.9c-0.4,0.4-0.8,0.8-0.8,1.2c0,11.9,0,24.1,0,36C33.1,75.3,33.1,75.7,33.6,76.1z
-		"/>
-	<path class="st1" d="M33.6,76.1c-0.4-0.4,0-0.8,0-1.2c0-11.9,0-24.1,0-36c0-0.8,0.4-1.2,0.8-1.2c7.7-5,13.2-7.8,20.3-12.1
-		c3.3-2,6.3-3.8,10-5.5c0.4-0.4,0,0,0.8-0.8c0.1,0.3,0.1,0.4,0,0.8c-1.6,2.9-3.3,5.7-4.9,8.6c-3.7,6.1-7,12.3-10.6,18.4
-		c-0.4,0.8,0,0.8,0.4,1.2c4.9,2.9,9.8,5.7,14.7,8.6c0.4,0,0.4,0.4,0.8,0.8c-1.6,0.8-3.3,2-4.9,2.9C52,65.5,43,70.8,33.6,76.1
-		L33.6,76.1z"/>
-</g>
-</svg>
+</style><path
+     style="fill:#ed443e"
+     inkscape:connector-curvature="0"
+     id="path4"
+     d="M 33.243487,76.099755 C 32,75.6 32.364373,75.742507 32,75.6 25,71.9 18.5,67.8 11.5,63.7 7.8,61.7 4.5,59.6 0.9,57.6 0.4,57.2 0,56.8 0,56.4 V 19.6 C 0,18.8 0.4,18.8 0.8,18.4 8.6,13.9 16.4,9.4 24.1,4.9 26.6,3.3 29,2 31.9,0.4 32.3,0.4 32.7,0 32.7,0 c 0.4,0.4 0,0.8 0,1.2 V 18 c 0,0.8 0.4,1.2 1.2,1.2 h 30.3 1.2 c -0.256513,0.899755 -0.2,0.4 -0.8,0.8 -3.7,2.1 -6.5,3.7 -9.8,5.7 -7,4.1 -13.9,7.8 -20.5,11.9 -0.03723,0.883686 -0.57831,1.243379 -0.8,1.2 v 36 c -0.256513,1.299755 -0.257737,0.130215 -0.256513,1.299755 z"
+     class="st0"
+     sodipodi:nodetypes="ccccssccccssscccccccc" /><path
+     style="fill:#c2232f"
+     inkscape:connector-curvature="0"
+     id="path6"
+     d="m 33.243487,76.099755 v -1.2 -36 c 0,-0.538003 0.11785,-0.575238 0.8,-1.2 7.7,-5 13.2,-7.8 20.3,-12.1 3.3,-2 3.323551,-2.034865 11.056513,-6.399755 v 0 c -0.256513,0.899755 -0.156513,0.499755 -0.256513,0.899755 -1.6,2.9 -3.3,5.7 -4.9,8.6 -3.7,6.1 -7,12.3 -10.6,18.4 -0.4,0.8 0,0.8 0.4,1.2 4.9,2.9 9.8,5.7 14.7,8.6 0.4,0 0.4,0.4 0.8,0.8 -1.6,0.8 -3.3,2 -4.9,2.9 -9,4.9 -18,10.2 -27.4,15.5 z"
+     class="st1"
+     sodipodi:nodetypes="csscccccccccccc" /></svg>
