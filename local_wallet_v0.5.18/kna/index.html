@@ -124,7 +124,7 @@
               <p class="dialog-text" style="font-weight: bold;">С осторожностью обращайтесь с SEED (Секретной фразой)!</p>
               <p class="dialog-text">Только SEED-фраза может обеспечить доступ к вашему кошельку.</p>
               <p class="dialog-text">1. Не используйте свою SEED-фразу нигде, кроме этого сайта <br/>(внимательно сравните с этим доменом localwaves.xyz/local/kna).</p>
-              <p class="dialog-text">Если кто-то другой завладеет секретной фразой, вы потеряете свои активы.</p>
+              <p class="dialog-text">Если кто-то другой завладеет секретной фразой, вы потеряете свои токены.</p>
               <p class="dialog-text">2. Храните свою SEED-фразу в защищенном месте, это единственный способ восстановить ваш кошелек.</p>
             </div>
           </div>
@@ -333,7 +333,7 @@
               tooltipster
               tooltip-html
               tooltip-theme="tooltipster-theme3"
-              tooltip-title="<center><u>Кошелек</u></center><br/>Вкладка отображения основных активов"></span>
+              tooltip-title="<center><u>Кошелек</u></center><br/>Вкладка отображения основных токенов"></span>
 
         <span waves-tab
               on-select="nav.changeTab(pageId)"
@@ -343,7 +343,7 @@
               tooltipster
               tooltip-html
               tooltip-theme="tooltipster-theme3"
-              tooltip-title="<center><u>Портфель</u></center><br/>Отображает все ваши активы,<br/> как цифровые, так и физические,<br/> а также позволяет отправку."></span>
+              tooltip-title="<center><u>Портфель</u></center><br/>Отображает все ваши токены."></span>
         <span waves-tab
               on-select="nav.changeTab(pageId)"
               current-page-id="nav.currentTab"
@@ -352,7 +352,7 @@
               tooltipster
               tooltip-html
               tooltip-theme="tooltipster-theme3"
-              tooltip-title="<center><u>Децентрализованная Биржа</u></center><br/>Доступ к рынкам, где вы можете покупать,<br/>продавать и торговать активами."></span>
+              tooltip-title="<center><u>Биржа</u></center><br/>Доступ к рынкам, где вы можете покупать,<br/>продавать и торговать токенами."></span>
 
         <!--<span waves-tab
               on-select="nav.changeTab(pageId)"
@@ -414,7 +414,7 @@
               tooltipster
               tooltip-html
               tooltip-theme="tooltipster-theme3"
-              tooltip-title="<center><u>КАРТА</u></center><br/>Локальный бизнес использующий цифровые нефинансовые активы"></span>
+              tooltip-title="<center><u>КАРТА</u></center><br/>Локальный бизнес использующий цифровые нефинансовые токены"></span>
       </div>
     </section>
 
@@ -892,7 +892,7 @@
             <table class="wavesTable wScroll">
               <thead>
               <tr>
-                <td>Название актива</td>
+                <td>Название токена</td>
                 <td>Эмитент</td>
                 <td>Перевыпускаемый</td>
                 <td>Баланс</td>
@@ -901,7 +901,7 @@
               </thead>
               <tbody>
               <tr ng-show="assetList.noData">
-                <td colspan="5">У вас нет ни одного созданного актива</td>
+                <td colspan="5">У вас нет ни одного созданного токена</td>
               </tr>
               <tr ng-show="!assetList.noData" ng-repeat="tx in assetList.assets | asset track by tx.id">
                 <td>
@@ -924,7 +924,7 @@
             </table>
             <div class="noDisp" ng-controller="assetDetailsController as details">
               <div id="asset-details-dialog" waves-dialog cancel-button-visible="false">
-                <h2 class="sectionHeader">Описание актива</h2>
+                <h2 class="sectionHeader">Описание токена</h2>
                 <table class="wavesTable">
                   <thead>
                   <tr>
@@ -952,7 +952,7 @@
                     <td>{{details.description}}</td>
                   </tr>
                   <tr>
-                    <td>Сумма активов:</td>
+                    <td>Сумма токенов:</td>
                     <td>{{details.totalTokens}}</td>
                   </tr>
                   <tr>
@@ -970,7 +970,7 @@
             <div class="noDisp" ng-controller="assetTransferController as transfer">
               <div id="asset-transfer-dialog" waves-dialog ok-button-caption="ОТПРАВИТЬ" on-dialog-ok="transfer.submitTransfer(transfer.assetForm)">
                 <form id="transfer-asset-form" name="transfer.assetForm" novalidate ng-validate="transfer.validationOptions">
-                  <h2 class="sectionHeader">Отправить актив</h2>
+                  <h2 class="sectionHeader">Отправить токен</h2>
                   <div class="balanceAmt">
                     <p>Баланс: </p><span class="balancewaves">{{transfer.availableBalance | moneyLong:true}}</span><br/>
                     <p>Баланс в Waves: </p><span class="balancewaves">{{transfer.feeAssetBalance | moneyLong:true}}</span>
@@ -1035,9 +1035,9 @@
             <div class="noDisp" ng-controller="assetReissueController as reissue">
               <div id="asset-reissue-dialog" waves-dialog ok-button-caption="REISSUE" ok-button-enabled="!reissue.broadcast.pending" on-dialog-ok="reissue.submitReissue(reissue.assetForm)">
                 <form id="asset-reissue-form" name="reissue.assetForm" novalidate ng-validate="reissue.validationOptions">
-                  <h2 class="sectionHeader">Перевыпуск актива</h2>
+                  <h2 class="sectionHeader">Перевыпуск токена</h2>
                   <div class="balanceAmt">
-                    <p>Выпущена общая сумма активов: </p><span class="balancewaves">{{reissue.totalTokens.formatAmount()}}</span><br/>
+                    <p>Выпущена общая сумма токенов: </p><span class="balancewaves">{{reissue.totalTokens.formatAmount()}}</span><br/>
                     <p>Баланс Waves: </p><span class="balancewaves">{{reissue.wavesBalance.formatAmount(true)}}</span>
                   </div>
                   <table class="wavesTable">
@@ -1049,11 +1049,11 @@
                     </thead>
                     <tbody>
                     <tr>
-                      <td>Идентификатор актива</td>
+                      <td>Идентификатор токена</td>
                       <td>{{reissue.assetId}}</td>
                     </tr>
                     <tr>
-                      <td>Имя актива</td>
+                      <td>Имя токена</td>
                       <td>{{reissue.assetName}}</td>
                     </tr>
 
@@ -1083,7 +1083,7 @@
               </div>
               <div id="asset-reissue-confirm-dialog" waves-dialog ok-button-caption="ПОДТВЕРДИТЬ" ok-button-enabled="!reissue.broadcast.pending" on-dialog-ok="reissue.broadcastTransaction()">
                 <div class="dialog-confirmation">
-                  <p class="dialog-text">Вы выпускаете дополнительную сумму <span class="confirmation-value">{{reissue.confirm.amount | moneyShort}}</span> активов <br/>
+                  <p class="dialog-text">Вы выпускаете дополнительную сумму <span class="confirmation-value">{{reissue.confirm.amount | moneyShort}}</span> токенов <br/>
                     к <span class="confirmation-value">{{reissue.confirm.amount.currency}}</span>
                     с комиссией в <span class="confirmation-value">{{reissue.confirm.fee | moneyLong:true}}</span>
                   </p>
@@ -1216,7 +1216,7 @@
         <div id="mBB-token" class="mBB-content" ng-switch-when="tokens">
 
           <div ng-controller="tokenCreateController as ctrl">
-            <h2 class="sectionHeader">Выпустить актив</h2>
+            <h2 class="sectionHeader">Выпустить токен</h2>
             <form id="create-asset-form" name="createAssetForm" novalidate ng-validate="ctrl.issuanceValidationOptions" ng-submit="ctrl.assetIssueConfirmation(createAssetForm, $event)">
               <div class="balanceAmt">
                 <p>Баланс в Waves: </p><span class="balancewaves">{{ctrl.wavesBalance | moneyLong:true}}</span>
@@ -1230,34 +1230,34 @@
                 </thead>
                 <tbody>
                 <tr>
-                  <td><label for="assetName">Название актива</label></td>
-                  <td><input id="assetName" name="assetName" type="text" class="wInput form-control" focus-me="true" ng-model="ctrl.asset.name" tooltipster tooltip-theme="tooltipster-theme1" tooltip-html title="В этом поле вписывается название вашего<br/>актива.<br/><br/>Он может содержать до 16 буквенно-цифровых<br/> символов."/></td>
+                  <td><label for="assetName">Название токена</label></td>
+                  <td><input id="assetName" name="assetName" type="text" class="wInput form-control" focus-me="true" ng-model="ctrl.asset.name" tooltipster tooltip-theme="tooltipster-theme1" tooltip-html title="В этом поле вписывается название вашего<br/>токена.<br/><br/>Он может содержать до 16 буквенно-цифровых<br/> символов."/></td>
                 </tr><br/>
                 <tr>
                   <td><label for="assetDescription">Описание</label></td>
                   <td><textarea id="assetDescription" name="assetDescription" class="wInput" rows="3" ng-model="ctrl.asset.description" tooltipster tooltip-theme="tooltipster-theme1" tooltip-html title="Описание нельзя изменить позже.<br/>"></textarea></td>
                 </tr>
                 <tr>
-                  <td><label for="assetTotalTokens">Всего актива</label></td>
+                  <td><label for="assetTotalTokens">Всего токенов</label></td>
                   <td><input id="assetTotalTokens" name="assetTotalTokens" class="wInput" type="text" ng-model="ctrl.asset.totalTokens" integer-input-restrictor tooltipster tooltip-theme="tooltipster-theme1" tooltip-html title="
                   	Перевыпускаемый тип <br/>
                   	позволяет при необходимости <br/>
-                  	увеличить количество активов.<br/>
-					Количество активов <br/>
+                  	увеличить количество токенов.<br/>
+					Количество токенов <br/>
 					неперевыпускаемого типа не <br/>
 					может быть изменено в будущем."/></td>
                 </tr>
                 <tr>
                   <td><label for="assetTokenDecimalPlaces">Десятичные знаки</label></td>
-                  <td><input id="assetTokenDecimalPlaces" name="assetTokenDecimalPlaces" class="wInput" type="text" ng-model="ctrl.asset.decimalPlaces" integer-input-restrictor tooltipster tooltip-theme="tooltipster-theme1" tooltip-html title="Это поле определяет,<br/>сколько знаков после<br/>запятой будет у<br/>создаваемого актива."/></td>
+                  <td><input id="assetTokenDecimalPlaces" name="assetTokenDecimalPlaces" class="wInput" type="text" ng-model="ctrl.asset.decimalPlaces" integer-input-restrictor tooltipster tooltip-theme="tooltipster-theme1" tooltip-html title="Это поле определяет,<br/>сколько знаков после<br/>запятой будет у<br/>создаваемого токена."/></td>
                 </tr>
                 <tr>
                   <td><label for="assetReissuable">Перевыпускаемый</label></td>
-                  <td><input id="assetReissuable" name="assetReissuable" type="checkbox" class="wInput" ng-model="ctrl.asset.reissuable" tooltipster tooltip-theme="tooltipster-theme1" tooltip-html title="ПЕРЕВЫПУСК позволяет дополнительную <br/>  эмиссию актива, которые будут <br/>добавлены к основному активу. <br/> <br/> Актив без ПЕРЕВЫПУСКА будет ограничен <br/>суммарным количеством, определенным<br/> в этой форме."/></td>
+                  <td><input id="assetReissuable" name="assetReissuable" type="checkbox" class="wInput" ng-model="ctrl.asset.reissuable" tooltipster tooltip-theme="tooltipster-theme1" tooltip-html title="ПЕРЕВЫПУСК позволяет дополнительную <br/>  эмиссию токенов, которые будут <br/>добавлены к основному активу. <br/> <br/> окен без ПЕРЕВЫПУСКА будет ограничен <br/>суммарным количеством, определенным<br/> в этой форме."/></td>
                 </tr>
                 <tr class="noSelect">
                   <td>Комиссия</td>
-                  <td tooltipster tooltip-theme="tooltipster-theme1" tooltip-html title="КОМИССИЯ необходима для оплаты <br/> выпуска актива.">{{::ctrl.asset.fee.formatAmount(true)}} {{::ctrl.asset.fee.currency.displayName}}</td>
+                  <td tooltipster tooltip-theme="tooltipster-theme1" tooltip-html title="КОМИССИЯ необходима для оплаты <br/> эмиссии токена.">{{::ctrl.asset.fee.formatAmount(true)}} {{::ctrl.asset.fee.currency.displayName}}</td>
                 </tr>
                 </tbody>
               </table>
@@ -1269,12 +1269,12 @@
 
             <div id="create-asset-confirmation" waves-dialog ok-button-caption="ПОДТВЕРДИТЬ" ok-button-enabled="!ctrl.broadcast.pending" on-dialog-ok="ctrl.broadcastIssueTransaction()">
               <div class="dialog-confirmation">
-                <p class="dialog-text">Вы выпускаете <span class="confirmation-value">{{ctrl.confirm.reissuable}}</span> актив под именем
+                <p class="dialog-text">Вы выпускаете <span class="confirmation-value">{{ctrl.confirm.reissuable}}</span> токенв под именем
                   <span class="confirmation-value">{{ctrl.confirm.name}}</span><br/> с общим числом
-                  <span class="confirmation-value">{{ctrl.confirm.totalTokens}}</span> общей суммы актива
+                  <span class="confirmation-value">{{ctrl.confirm.totalTokens}}</span> общей суммы токенов
                 </p>
-                <p class="dialog-text notice-alert" ng-if="!ctrl.asset.reissuable">Обратите внимание, что вы пометили актив как НЕ ПЕРЕВЫПУСКАЕМЫЙ. <br/>
-                   Активы, созданные как ПЕРЕВЫПУСКАЕМЫЕ, могут быть позже изменены на НЕ ПЕРЕВЫПУСКАЕМЫЕ, <br/> однако актив, помеченный как НЕ ПЕРЕВЫПУСКАЕМЫй, никогда не может быть ПЕРЕВЫПУЩЕН.</p>
+                <p class="dialog-text notice-alert" ng-if="!ctrl.asset.reissuable">Обратите внимание, что вы пометили токен как НЕ ПЕРЕВЫПУСКАЕМЫЙ. <br/>
+                   Токены, созданные как ПЕРЕВЫПУСКАЕМЫЕ, могут быть позже изменены на НЕ ПЕРЕВЫПУСКАЕМЫЕ, <br/> однако токен, помеченный как НЕ ПЕРЕВЫПУСКАЕМЫй, никогда не может быть ПЕРЕВЫПУЩЕН.</p>
                 <p class="dialog-text">Пожалуйста <span class="fontBold"> ПОДТВЕРДИТЕ </span>для выпуска или <span class="fontBold"> ОТМЕНИТЕ </span> чтобы выйти.</p>
               </div>
             </div>
