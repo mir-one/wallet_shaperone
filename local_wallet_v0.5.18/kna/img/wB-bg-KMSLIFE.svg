@@ -13,11 +13,12 @@
    id="Слой_1"
    x="0px"
    y="0px"
-   viewBox="0 0 67 67"
-   style="enable-background:new 0 0 67 67;"
+   viewBox="0 0 64.473885 64.476509"
    xml:space="preserve"
    sodipodi:docname="wB-bg-KMSLIFE.svg"
-   inkscape:version="0.92.2pre0 (973e216, 2017-07-25)"><metadata
+   inkscape:version="0.92.2pre0 (973e216, 2017-07-25)"
+   width="64.473885"
+   height="64.476509"><metadata
      id="metadata19"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
@@ -34,9 +35,9 @@
      inkscape:window-height="696"
      id="namedview15"
      showgrid="false"
-     inkscape:zoom="7.0447761"
-     inkscape:cx="45.690584"
-     inkscape:cy="31.906804"
+     inkscape:zoom="3.5223881"
+     inkscape:cx="11.629897"
+     inkscape:cy="20.539983"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -46,19 +47,14 @@
 	.st0{fill:#02ACEC;}
 	.st1{fill:#FFFFFF;}
 	.st2{fill:#F15A29;}
-</style><circle
-     style="fill:#5599ff;fill-opacity:1;fill-rule:nonzero;stroke-width:2.10714293"
-     id="path828"
-     cx="33.641945"
-     cy="33.500004"
-     r="33.5" /><path
-     class="st1"
-     d="m 33.641945,2.600002 c -17.1,0 -30.9999997,13.8 -30.9999997,30.9 0,17.1 13.8999997,30.9 30.8999997,30.9 0.3,0 0.7,0 1,-0.1 15.6,-0.6 28.3,-12.6 29.9,-27.8 0.1,-1 0.2,-2.1 0.2,-3.2 -0.2,-16.9 -14,-30.7 -31,-30.7 z m 20.5,51.3 c -5.9,5.9 -13.7,8.7 -21.4,8.5 -7.1,-0.2 -14.2,-3 -19.6,-8.5 -11.2999997,-11.3 -11.2999997,-29.6 0,-40.9 11.3,-11.3 29.7,-11.3 40.9,0 6,6 8.8,14 8.4,21.8 -0.3,6.9 -3,13.8 -8.3,19.1 z"
-     id="path6"
-     inkscape:connector-curvature="0"
-     style="fill:#ffffff" /><g
+</style><polygon
+     transform="matrix(0.13125791,0,0,0.13125791,-8.8546586,-9.2392443)"
+     style="fill:#008000;fill-rule:evenodd"
+     class="cls-1"
+     points="67.46,316 313.07,70.39 558.66,316 313.07,561.61 "
+     id="polygon842" /><g
      id="g12"
-     transform="translate(-1.8080546,0.70000199)"><path
+     transform="translate(-3.2130576,-0.56174471)"><path
        class="st1"
        d="m 33.3,22.8 h 6.4 l -8.6,8.2 4.8,11.8 h -6 l -3,-7.8 -3,2.8 -1.1,5 H 17 l 4.3,-20 h 5.8 l -1.6,7.4 z"
        id="path8"
@@ -68,4 +64,11 @@
        d="m 53.9,37.8 -1,5 H 37.8 l 4.3,-20 h 5.8 l -3.2,15.1 h 9.2 z"
        id="path10"
        inkscape:connector-curvature="0"
-       style="fill:#f15a29" /></g></svg>
+       style="fill:#f15a29" /></g><style
+     id="style2-6"
+     type="text/css">
+	.st0{fill:#3F61AC;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#2B388F;}
+	.st3{fill:#58595B;}
+</style></svg>
