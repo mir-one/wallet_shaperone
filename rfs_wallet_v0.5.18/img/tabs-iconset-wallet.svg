@@ -1,26 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Roman Inozemtsev: https://github.com/mir-one/  -->
-<svg version="1.1"
-	 id="Слой_1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24"
-	 style="enable-background:new 0 0 24 24;" xml:space="preserve">
-<style type="text/css">
+
+<svg version="1.1" id="Слой_1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" sodipodi:docname="tabs-iconset-wallet.svg" inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><defs id="defs19" /><sodipodi:namedview id="namedview17" pagecolor="#505050" bordercolor="#ffffff" borderopacity="1" inkscape:pageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="1" showgrid="false" inkscape:zoom="29.958333" inkscape:cx="12" inkscape:cy="12" inkscape:window-width="1920" inkscape:window-height="991" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="Слой_1" />
+<style type="text/css" id="style2">
 	.st0{fill:#2BB673;}
 	.st1{fill:#FFFFFF;}
 </style>
-<circle class="st0" cx="12" cy="12" r="12"/>
-<circle class="st1" cx="12" cy="12" r="11.1"/>
-<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -4.9706 11.9998)" class="st1" cx="12" cy="12" rx="10.4" ry="10.4"/>
-<g>
-	<path class="st0" d="M13.3,6.2c0.2,0.3,0.4,0.7,0.6,1.1c0.3-0.1,0.7-0.2,1.1-0.4c0.2,0.7,0.5,1.3,0.7,2c0.1,0.3,0.2,0.4,0.5,0.4
-		c0.4,0,0.6,0.3,0.6,0.8s0,1.1,0,1.6c0.3,0.1,0.5,0.1,0.7,0.1c0.2,0.1,0.5,0.2,0.5,0.4c0.3,0.8,0.4,1.7,0,2.5
-		c-0.2,0.3-0.7,0.5-1.2,0.7c0,0.3,0,0.9,0,1.4c0,0.6-0.3,0.9-0.8,0.9c-3,0-6,0-9,0c-0.6,0-0.8-0.3-0.8-0.9c0-2.2,0-4.5,0-6.7
-		c0-0.6,0.3-0.9,0.9-0.9s1-0.2,1.5-0.4C10,8,11.5,7.2,12.9,6.3C13.1,6.4,13.2,6.3,13.3,6.2z M15.7,14.7L15.7,14.7c0.5,0,1,0,1.5,0
-		c0.3,0,0.5-0.2,0.6-0.5c0-0.4,0.1-0.9,0-1.3c0-0.2-0.3-0.5-0.5-0.5c-1,0-2.1-0.1-3.1,0c-0.6,0-1,0.6-1,1.2c0,0.6,0.5,1,1.1,1.1
-		C14.7,14.7,15.2,14.7,15.7,14.7z M10.4,9.2C10.4,9.3,10.4,9.3,10.4,9.2c1.6,0.1,3.2,0.1,4.9,0.1c-0.2-0.6-0.4-1.1-0.6-1.6
-		C13.2,8.2,11.8,8.7,10.4,9.2z M10.8,8.3C10.8,8.4,10.8,8.4,10.8,8.3c0.9-0.2,1.7-0.5,2.6-0.8c-0.1-0.2-0.2-0.3-0.3-0.4
-		C12.3,7.5,11.5,7.9,10.8,8.3z"/>
-	<path class="st0" d="M14.2,14.2c-0.1-0.2-0.4-0.4-0.4-0.6c0-0.2,0.3-0.5,0.5-0.5c0.3-0.1,0.6,0.2,0.5,0.5c0,0.2-0.3,0.4-0.4,0.6
-		C14.3,14.2,14.2,14.2,14.2,14.2z"/>
+<circle class="st0" cx="12" cy="12" r="12" id="circle4" style="fill:#1a1a1a" />
+<circle class="st1" cx="12" cy="12" r="11.1" id="circle6" />
+<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -4.9706 11.9998)" class="st1" cx="12" cy="12" rx="10.4" ry="10.4" id="ellipse8" />
+<g id="g14" style="fill:#1a1a1a">
+	<path class="st0" d="M13.3,6.2c0.2,0.3,0.4,0.7,0.6,1.1c0.3-0.1,0.7-0.2,1.1-0.4c0.2,0.7,0.5,1.3,0.7,2c0.1,0.3,0.2,0.4,0.5,0.4   c0.4,0,0.6,0.3,0.6,0.8s0,1.1,0,1.6c0.3,0.1,0.5,0.1,0.7,0.1c0.2,0.1,0.5,0.2,0.5,0.4c0.3,0.8,0.4,1.7,0,2.5   c-0.2,0.3-0.7,0.5-1.2,0.7c0,0.3,0,0.9,0,1.4c0,0.6-0.3,0.9-0.8,0.9c-3,0-6,0-9,0c-0.6,0-0.8-0.3-0.8-0.9c0-2.2,0-4.5,0-6.7   c0-0.6,0.3-0.9,0.9-0.9s1-0.2,1.5-0.4C10,8,11.5,7.2,12.9,6.3C13.1,6.4,13.2,6.3,13.3,6.2z M15.7,14.7L15.7,14.7c0.5,0,1,0,1.5,0   c0.3,0,0.5-0.2,0.6-0.5c0-0.4,0.1-0.9,0-1.3c0-0.2-0.3-0.5-0.5-0.5c-1,0-2.1-0.1-3.1,0c-0.6,0-1,0.6-1,1.2c0,0.6,0.5,1,1.1,1.1   C14.7,14.7,15.2,14.7,15.7,14.7z M10.4,9.2C10.4,9.3,10.4,9.3,10.4,9.2c1.6,0.1,3.2,0.1,4.9,0.1c-0.2-0.6-0.4-1.1-0.6-1.6   C13.2,8.2,11.8,8.7,10.4,9.2z M10.8,8.3C10.8,8.4,10.8,8.4,10.8,8.3c0.9-0.2,1.7-0.5,2.6-0.8c-0.1-0.2-0.2-0.3-0.3-0.4   C12.3,7.5,11.5,7.9,10.8,8.3z" id="path10" style="fill:#1a1a1a" />
+	<path class="st0" d="M14.2,14.2c-0.1-0.2-0.4-0.4-0.4-0.6c0-0.2,0.3-0.5,0.5-0.5c0.3-0.1,0.6,0.2,0.5,0.5c0,0.2-0.3,0.4-0.4,0.6   C14.3,14.2,14.2,14.2,14.2,14.2z" id="path12" style="fill:#1a1a1a" />
 </g>
 </svg>
